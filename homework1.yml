@@ -1,0 +1,31 @@
+---
+- name: homework1
+  hosts: localhost
+  tasks:
+    - name: Create Dir
+      file:
+        path: /home/new_dir
+        state: directory
+        mode: 0755
+    - name: Download file
+      get_url:
+        url: https://knigolub.net/uploads/book/Grin_Prakticheskaya-feyrilogiya.txt
+        dest: /home/new_dir/book.txt
+        mode: 0644
+    - name: Instal 
+      yum:
+        name: 
+          - htop
+          - unzip
+          - telnet
+          - java
+          - python
+          - nginx
+        state: latest
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
+    - name: Check http 200
+      uri:
+        url: http://127.0.0.1
