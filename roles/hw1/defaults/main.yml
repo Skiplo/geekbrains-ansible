@@ -1,7 +1,0 @@
----
-dir_to_create:
-  dir: "/home/hw1"
-  mode: "0755"
-file_to_download:
-  url: "https://education.github.com/git-cheat-sheet-education.pdf"
-  mode: "0644"
