@@ -1,0 +1,702 @@
+2021-07-22 08:27:21,824 p=5564 u=root n=ansible | Process install dependency map
+2021-07-22 08:27:21,824 p=5564 u=root n=ansible | |
+2021-07-22 08:27:21,925 p=5564 u=root n=ansible | /
+2021-07-22 08:27:22,026 p=5564 u=root n=ansible | -
+2021-07-22 08:27:22,127 p=5564 u=root n=ansible | \
+2021-07-22 08:27:22,232 p=5564 u=root n=ansible | |
+2021-07-22 08:27:22,334 p=5564 u=root n=ansible | /
+2021-07-22 08:27:22,440 p=5564 u=root n=ansible | -
+2021-07-22 08:27:22,542 p=5564 u=root n=ansible | \
+2021-07-22 08:27:22,649 p=5564 u=root n=ansible | |
+2021-07-22 08:27:22,752 p=5564 u=root n=ansible | /
+2021-07-22 08:27:22,857 p=5564 u=root n=ansible | -
+2021-07-22 08:27:22,959 p=5564 u=root n=ansible | \
+2021-07-22 08:27:23,066 p=5564 u=root n=ansible | |
+2021-07-22 08:27:23,168 p=5564 u=root n=ansible | /
+2021-07-22 08:27:23,273 p=5564 u=root n=ansible | -
+2021-07-22 08:27:23,374 p=5564 u=root n=ansible | \
+2021-07-22 08:27:23,478 p=5564 u=root n=ansible | |
+2021-07-22 08:27:23,579 p=5564 u=root n=ansible | /
+2021-07-22 08:27:23,681 p=5564 u=root n=ansible | -
+2021-07-22 08:27:23,783 p=5564 u=root n=ansible | \
+2021-07-22 08:27:23,889 p=5564 u=root n=ansible | |
+2021-07-22 08:27:23,991 p=5564 u=root n=ansible | /
+2021-07-22 08:27:24,096 p=5564 u=root n=ansible | -
+2021-07-22 08:27:24,198 p=5564 u=root n=ansible | \
+2021-07-22 08:27:24,303 p=5564 u=root n=ansible | |
+2021-07-22 08:27:24,407 p=5564 u=root n=ansible | /
+2021-07-22 08:27:24,508 p=5564 u=root n=ansible | -
+2021-07-22 08:27:24,614 p=5564 u=root n=ansible | \
+2021-07-22 08:27:24,720 p=5564 u=root n=ansible | |
+2021-07-22 08:27:24,821 p=5564 u=root n=ansible | /
+2021-07-22 08:27:24,927 p=5564 u=root n=ansible | -
+2021-07-22 08:27:25,032 p=5564 u=root n=ansible | \
+2021-07-22 08:27:25,138 p=5564 u=root n=ansible | |
+2021-07-22 08:27:25,240 p=5564 u=root n=ansible | /
+2021-07-22 08:27:25,346 p=5564 u=root n=ansible | -
+2021-07-22 08:27:25,448 p=5564 u=root n=ansible | Starting collection install process
+2021-07-22 08:27:25,448 p=5564 u=root n=ansible | |
+2021-07-22 08:27:25,554 p=5564 u=root n=ansible | Installing 'community.docker:1.8.0' to '/root/.ansible/collections/ansible_collections/community/docker'
+2021-07-22 08:27:25,554 p=5564 u=root n=ansible | /
+2021-07-22 08:27:25,659 p=5564 u=root n=ansible | -
+2021-07-22 08:27:25,759 p=5564 u=root n=ansible | \
+2021-07-22 08:27:25,865 p=5564 u=root n=ansible | |
+2021-07-22 08:27:25,966 p=5564 u=root n=ansible | /
+2021-07-22 08:27:26,072 p=5564 u=root n=ansible | -
+2021-07-22 08:27:26,174 p=5564 u=root n=ansible | \
+2021-07-22 08:27:26,278 p=5564 u=root n=ansible | |
+2021-07-22 08:27:26,381 p=5564 u=root n=ansible | /
+2021-07-22 08:27:26,486 p=5564 u=root n=ansible | -
+2021-07-22 08:27:26,589 p=5564 u=root n=ansible | \
+2021-07-22 08:27:26,695 p=5564 u=root n=ansible | |
+2021-07-22 08:27:26,798 p=5564 u=root n=ansible | /
+2021-07-22 08:27:26,903 p=5564 u=root n=ansible | -
+2021-07-22 08:27:27,006 p=5564 u=root n=ansible | \
+2021-07-22 08:27:27,111 p=5564 u=root n=ansible | |
+2021-07-22 08:27:27,213 p=5564 u=root n=ansible | /
+2021-07-22 08:27:27,319 p=5564 u=root n=ansible | -
+2021-07-22 08:27:27,419 p=5564 u=root n=ansible | \
+2021-07-22 08:27:27,524 p=5564 u=root n=ansible | |
+2021-07-22 08:27:27,625 p=5564 u=root n=ansible | /
+2021-07-22 08:27:27,732 p=5564 u=root n=ansible | -
+2021-07-22 08:27:27,834 p=5564 u=root n=ansible | \
+2021-07-22 08:27:27,939 p=5564 u=root n=ansible | |
+2021-07-22 08:27:28,043 p=5564 u=root n=ansible | /
+2021-07-22 08:27:28,145 p=5564 u=root n=ansible | -
+2021-07-22 08:27:28,247 p=5564 u=root n=ansible | \
+2021-07-22 08:27:28,353 p=5564 u=root n=ansible | |
+2021-07-22 08:27:28,459 p=5564 u=root n=ansible | /
+2021-07-22 08:27:28,565 p=5564 u=root n=ansible | -
+2021-07-22 08:27:28,671 p=5564 u=root n=ansible | \
+2021-07-22 08:27:28,776 p=5564 u=root n=ansible | |
+2021-07-22 08:27:28,883 p=5564 u=root n=ansible | /
+2021-07-22 08:27:28,987 p=5564 u=root n=ansible | -
+2021-07-22 08:27:29,093 p=5564 u=root n=ansible | \
+2021-07-22 08:27:29,194 p=5564 u=root n=ansible | |
+2021-07-22 08:27:29,300 p=5564 u=root n=ansible | /
+2021-07-22 08:27:29,403 p=5564 u=root n=ansible | -
+2021-07-22 08:27:29,504 p=5564 u=root n=ansible | \
+2021-07-22 08:27:29,605 p=5564 u=root n=ansible | |
+2021-07-22 08:27:29,711 p=5564 u=root n=ansible | /
+2021-07-22 08:27:29,814 p=5564 u=root n=ansible | -
+2021-07-22 08:27:29,921 p=5564 u=root n=ansible | \
+2021-07-22 08:27:30,022 p=5564 u=root n=ansible | |
+2021-07-22 08:27:30,128 p=5564 u=root n=ansible | /
+2021-07-22 08:27:30,231 p=5564 u=root n=ansible | -
+2021-07-22 08:27:30,337 p=5564 u=root n=ansible | \
+2021-07-22 08:27:30,440 p=5564 u=root n=ansible | |
+2021-07-22 08:27:30,546 p=5564 u=root n=ansible | /
+2021-07-22 08:27:30,648 p=5564 u=root n=ansible | -
+2021-07-22 08:27:30,753 p=5564 u=root n=ansible | \
+2021-07-22 08:27:30,853 p=5564 u=root n=ansible | |
+2021-07-22 08:27:30,955 p=5564 u=root n=ansible | /
+2021-07-22 08:27:31,056 p=5564 u=root n=ansible | -
+2021-07-22 08:27:31,159 p=5564 u=root n=ansible | \
+2021-07-22 08:27:31,259 p=5564 u=root n=ansible | |
+2021-07-22 08:27:31,364 p=5564 u=root n=ansible | /
+2021-07-22 08:27:31,465 p=5564 u=root n=ansible | -
+2021-07-22 08:27:31,571 p=5564 u=root n=ansible | \
+2021-07-22 08:27:31,671 p=5564 u=root n=ansible | |
+2021-07-22 08:27:31,774 p=5564 u=root n=ansible | /
+2021-07-22 08:27:31,874 p=5564 u=root n=ansible | -
+2021-07-22 08:27:31,976 p=5564 u=root n=ansible | \
+2021-07-22 08:27:32,078 p=5564 u=root n=ansible | |
+2021-07-22 08:27:32,180 p=5564 u=root n=ansible | /
+2021-07-22 08:27:32,283 p=5564 u=root n=ansible | -
+2021-07-22 08:27:32,387 p=5564 u=root n=ansible | \
+2021-07-22 08:27:32,489 p=5564 u=root n=ansible | |
+2021-07-22 08:27:32,590 p=5564 u=root n=ansible | /
+2021-07-22 08:27:32,712 p=5564 u=root n=ansible | -
+2021-07-22 08:27:32,816 p=5564 u=root n=ansible | \
+2021-07-22 08:50:49,888 p=5996 u=root n=ansible | ERROR! Failed to parse the requirements yml at 'requirements.yml' with the following error:
+mapping values are not allowed here
+  in "requirements.yml", line 2, column 7
+2021-07-22 08:51:50,661 p=6003 u=root n=ansible | [WARNING]: - ansible-role-docker was NOT installed successfully: - command /bin/git clone
+https://https://github.com/geerlingguy/ansible-role-docker ansible-role-docker failed in directory
+/root/.ansible/tmp/ansible-local-6003BR1xU5/tmppThmF_ (rc=128) - fatal: unable to access
+'https://https://github.com/geerlingguy/ansible-role-docker/': Could not resolve host: https;
+Unknown error
+
+2021-07-22 08:51:50,663 p=6003 u=root n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2021-07-22 08:52:49,242 p=6015 u=root n=ansible | ansible-galaxy 2.9.23
+  config file = /home/project/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /bin/ansible-galaxy
+  python version = 2.7.5 (default, Nov 16 2020, 22:23:17) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+2021-07-22 08:52:49,242 p=6015 u=root n=ansible | Using /home/project/ansible.cfg as config file
+2021-07-22 08:52:50,203 p=6015 u=root n=ansible | [WARNING]: - ansible-role-docker was NOT installed successfully: - command /bin/git clone
+https://https://github.com/geerlingguy/ansible-role-docker ansible-role-docker failed in directory
+/root/.ansible/tmp/ansible-local-6015zlJ7I0/tmpArR6bz (rc=128) - fatal: unable to access
+'https://https://github.com/geerlingguy/ansible-role-docker/': Could not resolve host: https;
+Unknown error
+
+2021-07-22 08:52:50,204 p=6015 u=root n=ansible | ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2021-07-22 08:54:28,455 p=6026 u=root n=ansible | - extracting ansible-role-docker to /root/.ansible/roles/ansible-role-docker
+2021-07-22 08:54:28,461 p=6026 u=root n=ansible | - ansible-role-docker was installed successfully
+2021-07-28 22:58:49,259 p=8258 u=root n=ansible | ansible-playbook 2.9.23
+  config file = /home/project/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, Nov 16 2020, 22:23:17) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+2021-07-28 22:58:49,289 p=8258 u=root n=ansible | Using /home/project/ansible.cfg as config file
+2021-07-28 22:58:52,812 p=8258 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 22:58:54,341 p=8258 u=root n=ansible | ERROR! Invalid callback for stdout specified: dense
+logging is off by default unless this path is defined
+2021-07-28 22:59:58,177 p=8311 u=root n=ansible | ansible-playbook 2.9.23
+  config file = /home/project/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, Nov 16 2020, 22:23:17) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+2021-07-28 22:59:58,177 p=8311 u=root n=ansible | Using /home/project/ansible.cfg as config file
+2021-07-28 23:00:01,831 p=8311 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'actionable', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'counter_enabled', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'debug', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'full_skip', as we already have a stdout callback.
+2021-07-28 23:00:02,435 p=8311 u=root n=ansible | Skipping callback 'json', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'minimal', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'null', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'oneline', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'selective', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'skippy', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'stderr', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'unixy', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | Skipping callback 'yaml', as we already have a stdout callback.
+2021-07-28 23:00:02,436 p=8311 u=root n=ansible | PLAYBOOK: homework2.yml ********************************************************
+2021-07-28 23:00:02,437 p=8311 u=root n=ansible | 1 plays in homework2.yml
+2021-07-28 23:00:02,443 p=8311 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:00:02,479 p=8311 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:00:03,908 p=8311 u=root n=ansible | ok: [localhost]
+2021-07-28 23:00:03,909 p=8311 u=root n=ansible | META: ran handlers
+2021-07-28 23:00:04,005 p=8311 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:00:04,378 p=8311 u=root n=ansible | ok: [localhost] => {"changed": false, "gid": 1000, "name": "admins", "state": "present", "system": false}
+2021-07-28 23:00:04,398 p=8311 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:00:05,019 p=8311 u=root n=ansible | ok: [localhost] => {"append": true, "changed": false, "comment": "", "group": 1001, "groups": "admins", "home": "/home/local_admin", "move_home": false, "name": "local_admin", "shell": "/bin/bash", "state": "present", "uid": 1000}
+2021-07-28 23:00:05,038 p=8311 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:00:05,905 p=8311 u=root n=ansible | ok: [localhost] => {"changed": false, "checksum": "fde78de38d8b2d1f7933266f60853528d40e9d5c", "dest": "/etc/nginx/nginx.conf", "gid": 0, "group": "root", "mode": "0644", "owner": "root", "path": "/etc/nginx/nginx.conf", "secontext": "system_u:object_r:httpd_config_t:s0", "size": 1429, "state": "file", "uid": 0}
+2021-07-28 23:00:05,925 p=8311 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:00:06,856 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "name": "nginx", "state": "started", "status": {"ActiveEnterTimestampMonotonic": "0", "ActiveExitTimestampMonotonic": "0", "ActiveState": "inactive", "After": "nss-lookup.target basic.target -.mount remote-fs.target tmp.mount system.slice systemd-journald.socket network-online.target", "AllowIsolate": "no", "AmbientCapabilities": "0", "AssertResult": "no", "AssertTimestampMonotonic": "0", "Before": "shutdown.target", "BlockIOAccounting": "no", "BlockIOWeight": "18446744073709551615", "CPUAccounting": "no", "CPUQuotaPerSecUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "18446744073709551615", "CanIsolate": "no", "CanReload": "yes", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "18446744073709551615", "CollectMode": "inactive", "ConditionResult": "no", "ConditionTimestampMonotonic": "0", "Conflicts": "shutdown.target", "ControlPID": "0", "DefaultDependencies": "yes", "Delegate": "no", "Description": "The nginx HTTP and reverse proxy server", "DevicePolicy": "auto", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "0", "ExecMainStartTimestampMonotonic": "0", "ExecMainStatus": "0", "ExecReload": "{ path=/usr/sbin/nginx ; argv[]=/usr/sbin/nginx -s reload ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStart": "{ path=/usr/sbin/nginx ; argv[]=/usr/sbin/nginx ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStartPre": "{ path=/usr/sbin/nginx ; argv[]=/usr/sbin/nginx -t ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FragmentPath": "/usr/lib/systemd/system/nginx.service", "GuessMainPID": "yes", "IOScheduling": "0", "Id": "nginx.service", "IgnoreOnIsolate": "no", "IgnoreOnSnapshot": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestampMonotonic": "0", "InactiveExitTimestampMonotonic": "0", "JobTimeoutAction": "none", "JobTimeoutUSec": "0", "KillMode": "process", "KillSignal": "3", "LimitAS": "18446744073709551615", "LimitCORE": "18446744073709551615", "LimitCPU": "18446744073709551615", "LimitDATA": "18446744073709551615", "LimitFSIZE": "18446744073709551615", "LimitLOCKS": "18446744073709551615", "LimitMEMLOCK": "65536", "LimitMSGQUEUE": "819200", "LimitNICE": "0", "LimitNOFILE": "4096", "LimitNPROC": "15065", "LimitRSS": "18446744073709551615", "LimitRTPRIO": "0", "LimitRTTIME": "18446744073709551615", "LimitSIGPENDING": "15065", "LimitSTACK": "18446744073709551615", "LoadState": "loaded", "MainPID": "0", "MemoryAccounting": "no", "MemoryCurrent": "18446744073709551615", "MemoryLimit": "18446744073709551615", "MountFlags": "0", "Names": "nginx.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "none", "OOMScoreAdjust": "0", "OnFailureJobMode": "replace", "PIDFile": "/run/nginx.pid", "PermissionsStartOnly": "no", "PrivateDevices": "no", "PrivateNetwork": "no", "PrivateTmp": "yes", "ProtectHome": "no", "ProtectSystem": "no", "RefuseManualStart": "no", "RefuseManualStop": "no", "RemainAfterExit": "no", "Requires": "basic.target system.slice -.mount", "RequiresMountsFor": "/var/tmp", "Restart": "no", "RestartUSec": "100ms", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "5", "StartLimitInterval": "10000000", "StartupBlockIOWeight": "18446744073709551615", "StartupCPUShares": "18446744073709551615", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "dead", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "0", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "no", "TasksCurrent": "18446744073709551615", "TasksMax": "18446744073709551615", "TimeoutStartUSec": "1min 30s", "TimeoutStopUSec": "5s", "TimerSlackNSec": "50000", "Transient": "no", "Type": "forking", "UMask": "0022", "UnitFilePreset": "disabled", "UnitFileState": "disabled", "Wants": "network-online.target", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "0"}}
+2021-07-28 23:00:06,875 p=8311 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:00:07,078 p=8311 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:00:07,103 p=8311 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:00:07,869 p=8311 u=root n=ansible | ok: [localhost] => {"changed": false, "msg": "", "rc": 0, "results": ["docker is not installed", "docker-common is not installed", "docker-engine is not installed"]}
+2021-07-28 23:00:07,891 p=8311 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:00:09,074 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true}
+2021-07-28 23:00:09,092 p=8311 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:00:09,923 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "checksum_dest": null, "checksum_src": "cccda062c436669011790aa0d4da2514c80db74f", "dest": "/etc/yum.repos.d/docker-ce.repo", "elapsed": 0, "gid": 0, "group": "root", "md5sum": "d96cac1e059b609af19bf4301f6db460", "mode": "0644", "msg": "OK (1919 bytes)", "owner": "root", "secontext": "system_u:object_r:system_conf_t:s0", "size": 1919, "src": "/root/.ansible/tmp/ansible-tmp-1627527609.12-8540-268554200931629/tmpdH9cpn", "state": "file", "status_code": 200, "uid": 0, "url": "https://download.docker.com/linux/centos/docker-ce.repo"}
+2021-07-28 23:00:09,944 p=8311 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:00:10,296 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "gid": 0, "group": "root", "mode": "0644", "msg": "option changed", "owner": "root", "path": "/etc/yum.repos.d/docker-ce.repo", "secontext": "system_u:object_r:system_conf_t:s0", "size": 1921, "state": "file", "uid": 0}
+2021-07-28 23:00:10,314 p=8311 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:00:10,499 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "gid": 0, "group": "root", "mode": "0644", "msg": "option changed", "owner": "root", "path": "/etc/yum.repos.d/docker-ce.repo", "secontext": "system_u:object_r:system_conf_t:s0", "size": 1923, "state": "file", "uid": 0}
+2021-07-28 23:00:10,516 p=8311 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:00:10,539 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:00:10,557 p=8311 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:00:10,573 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:00:10,591 p=8311 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:00:10,607 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:00:10,625 p=8311 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:01:25,020 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "changes": {"installed": ["docker-ce"]}, "msg": "", "rc": 0, "results": ["Loaded plugins: fastestmirror\nLoading mirror speeds from cached hostfile\n * base: mirror.uta.edu.ec\n * epel: ord.mirror.rackspace.com\n * extras: centos.brisanet.com.br\n * updates: centos.ufes.br\nResolving Dependencies\n--> Running transaction check\n---> Package docker-ce.x86_64 3:20.10.7-3.el7 will be installed\n--> Processing Dependency: container-selinux >= 2:2.74 for package: 3:docker-ce-20.10.7-3.el7.x86_64\n--> Processing Dependency: containerd.io >= 1.4.1 for package: 3:docker-ce-20.10.7-3.el7.x86_64\n--> Processing Dependency: docker-ce-cli for package: 3:docker-ce-20.10.7-3.el7.x86_64\n--> Processing Dependency: docker-ce-rootless-extras for package: 3:docker-ce-20.10.7-3.el7.x86_64\n--> Processing Dependency: libcgroup for package: 3:docker-ce-20.10.7-3.el7.x86_64\n--> Running transaction check\n---> Package container-selinux.noarch 2:2.119.2-1.911c772.el7_8 will be installed\n--> Processing Dependency: policycoreutils-python for package: 2:container-selinux-2.119.2-1.911c772.el7_8.noarch\n---> Package containerd.io.x86_64 0:1.4.8-3.1.el7 will be installed\n---> Package docker-ce-cli.x86_64 1:20.10.7-3.el7 will be installed\n--> Processing Dependency: docker-scan-plugin(x86-64) for package: 1:docker-ce-cli-20.10.7-3.el7.x86_64\n---> Package docker-ce-rootless-extras.x86_64 0:20.10.7-3.el7 will be installed\n--> Processing Dependency: fuse-overlayfs >= 0.7 for package: docker-ce-rootless-extras-20.10.7-3.el7.x86_64\n--> Processing Dependency: slirp4netns >= 0.4 for package: docker-ce-rootless-extras-20.10.7-3.el7.x86_64\n---> Package libcgroup.x86_64 0:0.41-21.el7 will be installed\n--> Running transaction check\n---> Package docker-scan-plugin.x86_64 0:0.8.0-3.el7 will be installed\n---> Package fuse-overlayfs.x86_64 0:0.7.2-6.el7_8 will be installed\n--> Processing Dependency: libfuse3.so.3(FUSE_3.2)(64bit) for package: fuse-overlayfs-0.7.2-6.el7_8.x86_64\n--> Processing Dependency: libfuse3.so.3(FUSE_3.0)(64bit) for package: fuse-overlayfs-0.7.2-6.el7_8.x86_64\n--> Processing Dependency: libfuse3.so.3()(64bit) for package: fuse-overlayfs-0.7.2-6.el7_8.x86_64\n---> Package policycoreutils-python.x86_64 0:2.5-34.el7 will be installed\n--> Processing Dependency: setools-libs >= 3.3.8-4 for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libsemanage-python >= 2.5-14 for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: audit-libs-python >= 2.1.3-4 for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: python-IPy for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libqpol.so.1(VERS_1.4)(64bit) for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libqpol.so.1(VERS_1.2)(64bit) for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libapol.so.4(VERS_4.0)(64bit) for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: checkpolicy for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libqpol.so.1()(64bit) for package: policycoreutils-python-2.5-34.el7.x86_64\n--> Processing Dependency: libapol.so.4()(64bit) for package: policycoreutils-python-2.5-34.el7.x86_64\n---> Package slirp4netns.x86_64 0:0.4.3-4.el7_8 will be installed\n--> Running transaction check\n---> Package audit-libs-python.x86_64 0:2.8.5-4.el7 will be installed\n---> Package checkpolicy.x86_64 0:2.5-8.el7 will be installed\n---> Package fuse3-libs.x86_64 0:3.6.1-4.el7 will be installed\n---> Package libsemanage-python.x86_64 0:2.5-14.el7 will be installed\n---> Package python-IPy.noarch 0:0.75-6.el7 will be installed\n---> Package setools-libs.x86_64 0:3.3.8-4.el7 will be installed\n--> Finished Dependency Resolution\n\nDependencies Resolved\n\n================================================================================\n Package                Arch   Version                   Repository        Size\n================================================================================\nInstalling:\n docker-ce              x86_64 3:20.10.7-3.el7           docker-ce-stable  27 M\nInstalling for dependencies:\n audit-libs-python      x86_64 2.8.5-4.el7               base              76 k\n checkpolicy            x86_64 2.5-8.el7                 base             295 k\n container-selinux      noarch 2:2.119.2-1.911c772.el7_8 extras            40 k\n containerd.io          x86_64 1.4.8-3.1.el7             docker-ce-stable  30 M\n docker-ce-cli          x86_64 1:20.10.7-3.el7           docker-ce-stable  33 M\n docker-ce-rootless-extras\n                        x86_64 20.10.7-3.el7             docker-ce-stable 9.2 M\n docker-scan-plugin     x86_64 0.8.0-3.el7               docker-ce-stable 4.2 M\n fuse-overlayfs         x86_64 0.7.2-6.el7_8             extras            54 k\n fuse3-libs             x86_64 3.6.1-4.el7               extras            82 k\n libcgroup              x86_64 0.41-21.el7               base              66 k\n libsemanage-python     x86_64 2.5-14.el7                base             113 k\n policycoreutils-python x86_64 2.5-34.el7                base             457 k\n python-IPy             noarch 0.75-6.el7                base              32 k\n setools-libs           x86_64 3.3.8-4.el7               base             620 k\n slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k\n\nTransaction Summary\n================================================================================\nInstall  1 Package (+15 Dependent packages)\n\nTotal download size: 105 M\nInstalled size: 427 M\nDownloading packages:\n--------------------------------------------------------------------------------\nTotal                                              3.3 MB/s | 105 MB  00:31     \nRunning transaction check\nRunning transaction test\nTransaction test succeeded\nRunning transaction\n  Installing : libcgroup-0.41-21.el7.x86_64                                1/16 \n  Installing : 1:docker-ce-cli-20.10.7-3.el7.x86_64                        2/16 \n  Installing : docker-scan-plugin-0.8.0-3.el7.x86_64                       3/16 \n  Installing : setools-libs-3.3.8-4.el7.x86_64                             4/16 \n  Installing : python-IPy-0.75-6.el7.noarch                                5/16 \n  Installing : slirp4netns-0.4.3-4.el7_8.x86_64                            6/16 \n  Installing : libsemanage-python-2.5-14.el7.x86_64                        7/16 \n  Installing : audit-libs-python-2.8.5-4.el7.x86_64                        8/16 \n  Installing : fuse3-libs-3.6.1-4.el7.x86_64                               9/16 \n  Installing : fuse-overlayfs-0.7.2-6.el7_8.x86_64                        10/16 \n  Installing : checkpolicy-2.5-8.el7.x86_64                               11/16 \n  Installing : policycoreutils-python-2.5-34.el7.x86_64                   12/16 \n  Installing : 2:container-selinux-2.119.2-1.911c772.el7_8.noarch         13/16 \n  Installing : containerd.io-1.4.8-3.1.el7.x86_64                         14/16 \n  Installing : docker-ce-rootless-extras-20.10.7-3.el7.x86_64             15/16 \n  Installing : 3:docker-ce-20.10.7-3.el7.x86_64                           16/16 \n  Verifying  : checkpolicy-2.5-8.el7.x86_64                                1/16 \n  Verifying  : fuse3-libs-3.6.1-4.el7.x86_64                               2/16 \n  Verifying  : audit-libs-python-2.8.5-4.el7.x86_64                        3/16 \n  Verifying  : docker-scan-plugin-0.8.0-3.el7.x86_64                       4/16 \n  Verifying  : libsemanage-python-2.5-14.el7.x86_64                        5/16 \n  Verifying  : containerd.io-1.4.8-3.1.el7.x86_64                          6/16 \n  Verifying  : slirp4netns-0.4.3-4.el7_8.x86_64                            7/16 \n  Verifying  : 2:container-selinux-2.119.2-1.911c772.el7_8.noarch          8/16 \n  Verifying  : python-IPy-0.75-6.el7.noarch                                9/16 \n  Verifying  : policycoreutils-python-2.5-34.el7.x86_64                   10/16 \n  Verifying  : 3:docker-ce-20.10.7-3.el7.x86_64                           11/16 \n  Verifying  : 1:docker-ce-cli-20.10.7-3.el7.x86_64                       12/16 \n  Verifying  : setools-libs-3.3.8-4.el7.x86_64                            13/16 \n  Verifying  : docker-ce-rootless-extras-20.10.7-3.el7.x86_64             14/16 \n  Verifying  : fuse-overlayfs-0.7.2-6.el7_8.x86_64                        15/16 \n  Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16 \n\nInstalled:\n  docker-ce.x86_64 3:20.10.7-3.el7                                              \n\nDependency Installed:\n  audit-libs-python.x86_64 0:2.8.5-4.el7                                        \n  checkpolicy.x86_64 0:2.5-8.el7                                                \n  container-selinux.noarch 2:2.119.2-1.911c772.el7_8                            \n  containerd.io.x86_64 0:1.4.8-3.1.el7                                          \n  docker-ce-cli.x86_64 1:20.10.7-3.el7                                          \n  docker-ce-rootless-extras.x86_64 0:20.10.7-3.el7                              \n  docker-scan-plugin.x86_64 0:0.8.0-3.el7                                       \n  fuse-overlayfs.x86_64 0:0.7.2-6.el7_8                                         \n  fuse3-libs.x86_64 0:3.6.1-4.el7                                               \n  libcgroup.x86_64 0:0.41-21.el7                                                \n  libsemanage-python.x86_64 0:2.5-14.el7                                        \n  policycoreutils-python.x86_64 0:2.5-34.el7                                    \n  python-IPy.noarch 0:0.75-6.el7                                                \n  setools-libs.x86_64 0:3.3.8-4.el7                                             \n  slirp4netns.x86_64 0:0.4.3-4.el7_8                                            \n\nComplete!\n"]}
+2021-07-28 23:01:25,038 p=8311 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:01:25,054 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:01:25,073 p=8311 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:01:25,089 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:01:25,107 p=8311 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:01:31,794 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "enabled": true, "name": "docker", "state": "started", "status": {"ActiveEnterTimestampMonotonic": "0", "ActiveExitTimestampMonotonic": "0", "ActiveState": "inactive", "After": "docker.socket network-online.target systemd-journald.socket containerd.service system.slice firewalld.service basic.target", "AllowIsolate": "no", "AmbientCapabilities": "0", "AssertResult": "no", "AssertTimestampMonotonic": "0", "Before": "shutdown.target", "BlockIOAccounting": "no", "BlockIOWeight": "18446744073709551615", "CPUAccounting": "no", "CPUQuotaPerSecUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "18446744073709551615", "CanIsolate": "no", "CanReload": "yes", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "18446744073709551615", "CollectMode": "inactive", "ConditionResult": "no", "ConditionTimestampMonotonic": "0", "Conflicts": "shutdown.target", "ControlPID": "0", "DefaultDependencies": "yes", "Delegate": "yes", "Description": "Docker Application Container Engine", "DevicePolicy": "auto", "Documentation": "https://docs.docker.com", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "0", "ExecMainStartTimestampMonotonic": "0", "ExecMainStatus": "0", "ExecReload": "{ path=/bin/kill ; argv[]=/bin/kill -s HUP $MAINPID ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStart": "{ path=/usr/bin/dockerd ; argv[]=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FragmentPath": "/usr/lib/systemd/system/docker.service", "GuessMainPID": "yes", "IOScheduling": "0", "Id": "docker.service", "IgnoreOnIsolate": "no", "IgnoreOnSnapshot": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestampMonotonic": "0", "InactiveExitTimestampMonotonic": "0", "JobTimeoutAction": "none", "JobTimeoutUSec": "0", "KillMode": "process", "KillSignal": "15", "LimitAS": "18446744073709551615", "LimitCORE": "18446744073709551615", "LimitCPU": "18446744073709551615", "LimitDATA": "18446744073709551615", "LimitFSIZE": "18446744073709551615", "LimitLOCKS": "18446744073709551615", "LimitMEMLOCK": "65536", "LimitMSGQUEUE": "819200", "LimitNICE": "0", "LimitNOFILE": "18446744073709551615", "LimitNPROC": "18446744073709551615", "LimitRSS": "18446744073709551615", "LimitRTPRIO": "0", "LimitRTTIME": "18446744073709551615", "LimitSIGPENDING": "15065", "LimitSTACK": "18446744073709551615", "LoadState": "loaded", "MainPID": "0", "MemoryAccounting": "no", "MemoryCurrent": "18446744073709551615", "MemoryLimit": "18446744073709551615", "MountFlags": "0", "Names": "docker.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "main", "OOMScoreAdjust": "-500", "OnFailureJobMode": "replace", "PermissionsStartOnly": "no", "PrivateDevices": "no", "PrivateNetwork": "no", "PrivateTmp": "no", "ProtectHome": "no", "ProtectSystem": "no", "RefuseManualStart": "no", "RefuseManualStop": "no", "RemainAfterExit": "no", "Requires": "containerd.service basic.target docker.socket system.slice", "Restart": "always", "RestartUSec": "2s", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "3", "StartLimitInterval": "60000000", "StartupBlockIOWeight": "18446744073709551615", "StartupCPUShares": "18446744073709551615", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "dead", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "0", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "no", "TasksCurrent": "18446744073709551615", "TasksMax": "18446744073709551615", "TimeoutStartUSec": "0", "TimeoutStopUSec": "0", "TimerSlackNSec": "50000", "Transient": "no", "TriggeredBy": "docker.socket", "Type": "notify", "UMask": "0022", "UnitFilePreset": "disabled", "UnitFileState": "disabled", "Wants": "network-online.target", "WatchdogTimestampMonotonic": "0", "WatchdogUSec": "0"}}
+2021-07-28 23:01:31,795 p=8311 u=root n=ansible | RUNNING HANDLER [restart docker] ***********************************************
+2021-07-28 23:01:32,864 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "name": "docker", "state": "started", "status": {"ActiveEnterTimestamp": "Wed 2021-07-28 23:01:31 EDT", "ActiveEnterTimestampMonotonic": "418946947", "ActiveExitTimestampMonotonic": "0", "ActiveState": "active", "After": "network-online.target firewalld.service containerd.service basic.target systemd-journald.socket system.slice docker.socket", "AllowIsolate": "no", "AmbientCapabilities": "0", "AssertResult": "yes", "AssertTimestamp": "Wed 2021-07-28 23:01:25 EDT", "AssertTimestampMonotonic": "412781595", "Before": "multi-user.target shutdown.target", "BlockIOAccounting": "no", "BlockIOWeight": "18446744073709551615", "CPUAccounting": "no", "CPUQuotaPerSecUSec": "infinity", "CPUSchedulingPolicy": "0", "CPUSchedulingPriority": "0", "CPUSchedulingResetOnFork": "no", "CPUShares": "18446744073709551615", "CanIsolate": "no", "CanReload": "yes", "CanStart": "yes", "CanStop": "yes", "CapabilityBoundingSet": "18446744073709551615", "CollectMode": "inactive", "ConditionResult": "yes", "ConditionTimestamp": "Wed 2021-07-28 23:01:25 EDT", "ConditionTimestampMonotonic": "412781595", "Conflicts": "shutdown.target", "ControlGroup": "/system.slice/docker.service", "ControlPID": "0", "DefaultDependencies": "yes", "Delegate": "yes", "Description": "Docker Application Container Engine", "DevicePolicy": "auto", "Documentation": "https://docs.docker.com", "ExecMainCode": "0", "ExecMainExitTimestampMonotonic": "0", "ExecMainPID": "8902", "ExecMainStartTimestamp": "Wed 2021-07-28 23:01:25 EDT", "ExecMainStartTimestampMonotonic": "412782246", "ExecMainStatus": "0", "ExecReload": "{ path=/bin/kill ; argv[]=/bin/kill -s HUP $MAINPID ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", "ExecStart": "{ path=/usr/bin/dockerd ; argv[]=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock ; ignore_errors=no ; start_time=[Wed 2021-07-28 23:01:25 EDT] ; stop_time=[n/a] ; pid=8902 ; code=(null) ; status=0/0 }", "FailureAction": "none", "FileDescriptorStoreMax": "0", "FragmentPath": "/usr/lib/systemd/system/docker.service", "GuessMainPID": "yes", "IOScheduling": "0", "Id": "docker.service", "IgnoreOnIsolate": "no", "IgnoreOnSnapshot": "no", "IgnoreSIGPIPE": "yes", "InactiveEnterTimestampMonotonic": "0", "InactiveExitTimestamp": "Wed 2021-07-28 23:01:25 EDT", "InactiveExitTimestampMonotonic": "412782284", "JobTimeoutAction": "none", "JobTimeoutUSec": "0", "KillMode": "process", "KillSignal": "15", "LimitAS": "18446744073709551615", "LimitCORE": "18446744073709551615", "LimitCPU": "18446744073709551615", "LimitDATA": "18446744073709551615", "LimitFSIZE": "18446744073709551615", "LimitLOCKS": "18446744073709551615", "LimitMEMLOCK": "65536", "LimitMSGQUEUE": "819200", "LimitNICE": "0", "LimitNOFILE": "18446744073709551615", "LimitNPROC": "18446744073709551615", "LimitRSS": "18446744073709551615", "LimitRTPRIO": "0", "LimitRTTIME": "18446744073709551615", "LimitSIGPENDING": "15065", "LimitSTACK": "18446744073709551615", "LoadState": "loaded", "MainPID": "8902", "MemoryAccounting": "no", "MemoryCurrent": "42561536", "MemoryLimit": "18446744073709551615", "MountFlags": "0", "Names": "docker.service", "NeedDaemonReload": "no", "Nice": "0", "NoNewPrivileges": "no", "NonBlocking": "no", "NotifyAccess": "main", "OOMScoreAdjust": "-500", "OnFailureJobMode": "replace", "PermissionsStartOnly": "no", "PrivateDevices": "no", "PrivateNetwork": "no", "PrivateTmp": "no", "ProtectHome": "no", "ProtectSystem": "no", "RefuseManualStart": "no", "RefuseManualStop": "no", "RemainAfterExit": "no", "Requires": "system.slice docker.socket containerd.service basic.target", "Restart": "always", "RestartUSec": "2s", "Result": "success", "RootDirectoryStartOnly": "no", "RuntimeDirectoryMode": "0755", "SameProcessGroup": "no", "SecureBits": "0", "SendSIGHUP": "no", "SendSIGKILL": "yes", "Slice": "system.slice", "StandardError": "inherit", "StandardInput": "null", "StandardOutput": "journal", "StartLimitAction": "none", "StartLimitBurst": "3", "StartLimitInterval": "60000000", "StartupBlockIOWeight": "18446744073709551615", "StartupCPUShares": "18446744073709551615", "StatusErrno": "0", "StopWhenUnneeded": "no", "SubState": "running", "SyslogLevelPrefix": "yes", "SyslogPriority": "30", "SystemCallErrorNumber": "0", "TTYReset": "no", "TTYVHangup": "no", "TTYVTDisallocate": "no", "TasksAccounting": "no", "TasksCurrent": "8", "TasksMax": "18446744073709551615", "TimeoutStartUSec": "0", "TimeoutStopUSec": "0", "TimerSlackNSec": "50000", "Transient": "no", "TriggeredBy": "docker.socket", "Type": "notify", "UMask": "0022", "UnitFilePreset": "disabled", "UnitFileState": "enabled", "WantedBy": "multi-user.target", "Wants": "network-online.target", "WatchdogTimestamp": "Wed 2021-07-28 23:01:31 EDT", "WatchdogTimestampMonotonic": "418946835", "WatchdogUSec": "0"}}
+2021-07-28 23:01:32,865 p=8311 u=root n=ansible | META: ran handlers
+2021-07-28 23:01:32,883 p=8311 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:01:32,939 p=8311 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:01:32,991 p=8311 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:01:33,361 p=8311 u=root n=ansible | ok: [localhost] => {"changed": false, "cmd": "/usr/local/bin/docker-compose --version", "failed_when_result": false, "msg": "[Errno 2] No such file or directory", "rc": 2}
+2021-07-28 23:01:33,380 p=8311 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:01:33,397 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:01:33,415 p=8311 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:01:40,058 p=8311 u=root n=ansible | changed: [localhost] => {"changed": true, "checksum_dest": null, "checksum_src": "211cf895d3aa5abf9c1658f7fdb5895d2ad88c8d", "dest": "/usr/local/bin/docker-compose", "elapsed": 6, "gid": 0, "group": "root", "md5sum": "f070dd807d3a5ed7b949523b8932211e", "mode": "0755", "msg": "OK (12254032 bytes)", "owner": "root", "secontext": "system_u:object_r:bin_t:s0", "size": 12254032, "src": "/root/.ansible/tmp/ansible-tmp-1627527693.45-9229-112813500987750/tmpfubMzO", "state": "file", "status_code": 200, "uid": 0, "url": "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-Linux-x86_64"}
+2021-07-28 23:01:40,076 p=8311 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:01:40,091 p=8311 u=root n=ansible | skipping: [localhost] => {"changed": false, "skip_reason": "Conditional result was False"}
+2021-07-28 23:01:40,092 p=8311 u=root n=ansible | META: ran handlers
+2021-07-28 23:01:40,093 p=8311 u=root n=ansible | META: ran handlers
+2021-07-28 23:01:40,094 p=8311 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:01:40,094 p=8311 u=root n=ansible | localhost                  : ok=17   changed=9    unreachable=0    failed=0    skipped=7    rescued=0    ignored=0   
+2021-07-28 23:12:43,373 p=9406 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:12:43,757 p=9406 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/project/roles/docker_rabbit/tasks/main.yml': line 4, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  docker_image:
+    name: {{ image_name }}
+           ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2021-07-28 23:13:57,877 p=9438 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:13:58,383 p=9438 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:13:58,402 p=9438 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:13:59,540 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:13:59,593 p=9438 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:13:59,985 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:00,008 p=9438 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:14:00,472 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:00,491 p=9438 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:14:01,150 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:01,169 p=9438 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:14:01,870 p=9438 u=root n=ansible | changed: [localhost]
+2021-07-28 23:14:01,889 p=9438 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:14:02,043 p=9438 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:14:02,067 p=9438 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:14:02,752 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:02,779 p=9438 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:14:03,856 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:03,875 p=9438 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:14:04,659 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:04,680 p=9438 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:14:05,018 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:05,037 p=9438 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:14:05,234 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:05,255 p=9438 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:14:05,273 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:05,298 p=9438 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:14:05,319 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:05,344 p=9438 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:14:05,364 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:05,384 p=9438 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:14:05,814 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:05,833 p=9438 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:14:05,849 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:05,869 p=9438 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:14:05,887 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:05,907 p=9438 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:14:06,190 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:06,209 p=9438 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:14:06,248 p=9438 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:14:06,277 p=9438 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:14:07,308 p=9438 u=root n=ansible | ok: [localhost]
+2021-07-28 23:14:07,327 p=9438 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:14:07,346 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:07,367 p=9438 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:14:07,385 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:07,405 p=9438 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:14:07,421 p=9438 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:14:07,442 p=9438 u=root n=ansible | TASK [docker_rabbit : Pull image RabbitMQ] *************************************
+2021-07-28 23:14:07,851 p=9438 u=root n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (Docker SDK for Python: docker (Python >= 2.7) or docker-py (Python 2.6)) on localhost.localdomain's Python /usr/bin/python2. Please read module documentation and install in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter, for example via `pip install docker` or `pip install docker-py` (Python 2.6). The error was: No module named requests.exceptions"}
+2021-07-28 23:14:07,852 p=9438 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:14:07,853 p=9438 u=root n=ansible | localhost                  : ok=15   changed=1    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:22:48,647 p=10211 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:22:49,133 p=10211 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:22:49,152 p=10211 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:22:50,283 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:50,334 p=10211 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:22:50,730 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:50,754 p=10211 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:22:51,213 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:51,232 p=10211 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:22:51,898 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:51,917 p=10211 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:22:52,624 p=10211 u=root n=ansible | changed: [localhost]
+2021-07-28 23:22:52,644 p=10211 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:22:52,799 p=10211 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:22:52,824 p=10211 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:22:53,533 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:53,552 p=10211 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:22:54,724 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:54,744 p=10211 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:22:55,575 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:55,593 p=10211 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:22:55,974 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:55,992 p=10211 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:22:56,175 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:56,195 p=10211 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:22:56,212 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:56,231 p=10211 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:22:56,247 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:56,267 p=10211 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:22:56,282 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:56,313 p=10211 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:22:56,753 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:56,773 p=10211 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:22:56,799 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:56,819 p=10211 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:22:56,836 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:56,856 p=10211 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:22:57,146 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:57,165 p=10211 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:22:57,204 p=10211 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:22:57,234 p=10211 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:22:58,272 p=10211 u=root n=ansible | ok: [localhost]
+2021-07-28 23:22:58,292 p=10211 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:22:58,309 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:58,329 p=10211 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:22:58,347 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:58,368 p=10211 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:22:58,384 p=10211 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:22:58,406 p=10211 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-28 23:22:58,794 p=10211 u=root n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (Docker SDK for Python: docker (Python >= 2.7) or docker-py (Python 2.6)) on localhost.localdomain's Python /usr/bin/python2. Please read module documentation and install in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter, for example via `pip install docker` or `pip install docker-py` (Python 2.6). The error was: No module named requests.exceptions"}
+2021-07-28 23:22:58,795 p=10211 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:22:58,796 p=10211 u=root n=ansible | localhost                  : ok=15   changed=1    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:24:37,847 p=10622 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:24:38,335 p=10622 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:24:38,355 p=10622 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:24:39,286 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:39,331 p=10622 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:24:39,703 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:39,724 p=10622 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:24:40,192 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:40,212 p=10622 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:24:40,902 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:40,922 p=10622 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:24:41,575 p=10622 u=root n=ansible | changed: [localhost]
+2021-07-28 23:24:41,594 p=10622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:24:41,749 p=10622 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:24:41,774 p=10622 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:24:42,452 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:42,471 p=10622 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:24:43,523 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:43,543 p=10622 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:24:44,467 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:44,486 p=10622 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:24:44,814 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:44,833 p=10622 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:24:45,020 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:45,040 p=10622 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:24:45,055 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:45,075 p=10622 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:24:45,090 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:45,110 p=10622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:24:45,125 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:45,144 p=10622 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:24:45,574 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:45,593 p=10622 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:24:45,610 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:45,631 p=10622 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:24:45,647 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:45,666 p=10622 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:24:45,974 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:45,997 p=10622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:24:46,040 p=10622 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:24:46,071 p=10622 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:24:47,090 p=10622 u=root n=ansible | ok: [localhost]
+2021-07-28 23:24:47,113 p=10622 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:24:47,131 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:47,151 p=10622 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:24:47,168 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:47,188 p=10622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:24:47,208 p=10622 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:24:47,238 p=10622 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-28 23:24:47,773 p=10622 u=root n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (Docker SDK for Python: docker (Python >= 2.7) or docker-py (Python 2.6)) on localhost.localdomain's Python /usr/bin/python2. Please read module documentation and install in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter, for example via `pip install docker` or `pip install docker-py` (Python 2.6). The error was: No module named requests.exceptions"}
+2021-07-28 23:24:47,774 p=10622 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:24:47,774 p=10622 u=root n=ansible | localhost                  : ok=15   changed=1    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:28:08,571 p=11077 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:28:09,065 p=11077 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:28:09,084 p=11077 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:28:10,032 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:10,080 p=11077 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:28:10,461 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:10,482 p=11077 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:28:10,994 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:11,014 p=11077 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:28:11,678 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:11,697 p=11077 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:28:12,357 p=11077 u=root n=ansible | changed: [localhost]
+2021-07-28 23:28:12,377 p=11077 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:28:12,533 p=11077 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:28:12,559 p=11077 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:28:13,247 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:13,267 p=11077 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:28:14,296 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:14,316 p=11077 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:28:15,297 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:15,316 p=11077 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:28:15,642 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:15,661 p=11077 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:28:15,864 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:15,883 p=11077 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:28:15,901 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:15,924 p=11077 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:28:15,939 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:15,959 p=11077 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:28:15,976 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:15,998 p=11077 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:28:16,443 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:16,462 p=11077 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:28:16,478 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:16,500 p=11077 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:28:16,516 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:16,536 p=11077 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:28:16,821 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:16,840 p=11077 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:28:16,879 p=11077 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:28:16,908 p=11077 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:28:17,934 p=11077 u=root n=ansible | ok: [localhost]
+2021-07-28 23:28:17,953 p=11077 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:28:17,970 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:17,991 p=11077 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:28:18,009 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:18,028 p=11077 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:28:18,047 p=11077 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:28:18,070 p=11077 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-28 23:28:19,181 p=11077 u=root n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (Docker SDK for Python: docker (Python >= 2.7) or docker-py (Python 2.6)) on localhost.localdomain's Python /bin/python3. Please read module documentation and install in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter, for example via `pip install docker` or `pip install docker-py` (Python 2.6). The error was: No module named 'requests'"}
+2021-07-28 23:28:19,182 p=11077 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:28:19,182 p=11077 u=root n=ansible | localhost                  : ok=15   changed=1    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:30:08,291 p=11511 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:30:08,900 p=11511 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:30:08,920 p=11511 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:30:09,868 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:09,921 p=11511 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:30:10,300 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:10,321 p=11511 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:30:10,781 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:10,800 p=11511 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:30:11,481 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:11,500 p=11511 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:30:12,158 p=11511 u=root n=ansible | changed: [localhost]
+2021-07-28 23:30:12,177 p=11511 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:30:12,224 p=11511 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:30:12,250 p=11511 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:30:12,932 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:12,951 p=11511 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:30:14,000 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:14,019 p=11511 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:30:15,129 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:15,148 p=11511 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:30:15,475 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:15,494 p=11511 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:30:15,681 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:15,700 p=11511 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:30:15,717 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:15,737 p=11511 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:30:15,753 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:15,772 p=11511 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:30:15,790 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:15,810 p=11511 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:30:16,245 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:16,265 p=11511 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:30:16,281 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:16,303 p=11511 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:30:16,320 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:16,340 p=11511 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:30:16,635 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:16,654 p=11511 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:30:16,693 p=11511 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:30:16,723 p=11511 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:30:17,747 p=11511 u=root n=ansible | ok: [localhost]
+2021-07-28 23:30:17,768 p=11511 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:30:17,786 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:17,806 p=11511 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:30:17,824 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:17,843 p=11511 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:30:17,861 p=11511 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:30:17,881 p=11511 u=root n=ansible | TASK [docker_rabbit : Install Docker SDK for Python] ***************************
+2021-07-28 23:30:18,331 p=11511 u=root n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "cmd": ["/usr/bin/pip2", "install", "docker<5"], "msg": "\n:stderr: Traceback (most recent call last):\n  File \"/usr/bin/pip2\", line 9, in <module>\n    load_entry_point('pip==21.1.3', 'console_scripts', 'pip2')()\n  File \"/usr/lib/python2.7/site-packages/pkg_resources.py\", line 378, in load_entry_point\n    return get_distribution(dist).load_entry_point(group, name)\n  File \"/usr/lib/python2.7/site-packages/pkg_resources.py\", line 2566, in load_entry_point\n    return ep.load()\n  File \"/usr/lib/python2.7/site-packages/pkg_resources.py\", line 2260, in load\n    entry = __import__(self.module_name, globals(),globals(), ['__name__'])\n  File \"/usr/lib/python2.7/site-packages/pip/__init__.py\", line 1, in <module>\n    from typing import List, Optional\nImportError: No module named typing\n"}
+2021-07-28 23:30:18,332 p=11511 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:30:18,332 p=11511 u=root n=ansible | localhost                  : ok=15   changed=1    unreachable=0    failed=1    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:31:43,175 p=12011 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:31:43,927 p=12011 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:31:43,948 p=12011 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:31:44,912 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:44,959 p=12011 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:31:45,364 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:45,386 p=12011 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:31:45,849 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:45,869 p=12011 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:31:46,557 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:46,577 p=12011 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:31:47,272 p=12011 u=root n=ansible | changed: [localhost]
+2021-07-28 23:31:47,291 p=12011 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:31:47,447 p=12011 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:31:47,471 p=12011 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:31:48,209 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:48,228 p=12011 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:31:49,364 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:49,383 p=12011 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:31:50,302 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:50,321 p=12011 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:31:50,680 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:50,699 p=12011 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:31:50,882 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:50,901 p=12011 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:31:50,923 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:50,943 p=12011 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:31:50,959 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:50,978 p=12011 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:31:50,995 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:51,015 p=12011 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:31:51,497 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:51,516 p=12011 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:31:51,532 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:51,552 p=12011 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:31:51,569 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:51,588 p=12011 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:31:51,872 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:51,891 p=12011 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:31:51,929 p=12011 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:31:51,960 p=12011 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:31:52,974 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:52,993 p=12011 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:31:53,010 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:53,030 p=12011 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:31:53,048 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:53,067 p=12011 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:31:53,084 p=12011 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:31:53,106 p=12011 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-28 23:31:53,715 p=12011 u=root n=ansible | ok: [localhost]
+2021-07-28 23:31:53,738 p=12011 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-28 23:31:54,665 p=12011 u=root n=ansible | changed: [localhost]
+2021-07-28 23:31:54,667 p=12011 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:31:54,667 p=12011 u=root n=ansible | localhost                  : ok=17   changed=2    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:38:03,571 p=12663 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:38:04,106 p=12663 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:38:04,126 p=12663 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:38:05,093 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:05,137 p=12663 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:38:05,507 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:05,529 p=12663 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:38:05,989 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:06,009 p=12663 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:38:06,698 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:06,718 p=12663 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:38:07,428 p=12663 u=root n=ansible | changed: [localhost]
+2021-07-28 23:38:07,461 p=12663 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:38:07,623 p=12663 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:38:07,648 p=12663 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:38:08,385 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:08,404 p=12663 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:38:09,517 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:09,536 p=12663 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:38:10,478 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:10,497 p=12663 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:38:10,819 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:10,838 p=12663 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:38:11,021 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:11,040 p=12663 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:38:11,056 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:11,075 p=12663 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:38:11,091 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:11,110 p=12663 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:38:11,126 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:11,146 p=12663 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:38:11,641 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:11,660 p=12663 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:38:11,676 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:11,696 p=12663 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:38:11,712 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:11,731 p=12663 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:38:12,017 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:12,037 p=12663 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:38:12,074 p=12663 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:38:12,106 p=12663 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:38:13,150 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:13,170 p=12663 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:38:13,187 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:13,207 p=12663 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:38:13,224 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:13,245 p=12663 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:38:13,261 p=12663 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:38:13,283 p=12663 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-28 23:38:13,815 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:13,837 p=12663 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-28 23:38:14,560 p=12663 u=root n=ansible | ok: [localhost]
+2021-07-28 23:38:14,562 p=12663 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:38:14,562 p=12663 u=root n=ansible | localhost                  : ok=17   changed=1    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   
+2021-07-28 23:39:12,653 p=13186 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:39:13,088 p=13186 u=root n=ansible | ERROR! Invalid callback for stdout specified: json
+logging is off by default unless this path is defined
+2021-07-28 23:40:17,700 p=13196 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-28 23:40:18,229 p=13196 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-28 23:40:18,253 p=13196 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-28 23:40:19,228 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:19,272 p=13196 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-28 23:40:19,654 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:19,675 p=13196 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-28 23:40:20,146 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:20,165 p=13196 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-28 23:40:20,828 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:20,848 p=13196 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-28 23:40:21,539 p=13196 u=root n=ansible | changed: [localhost]
+2021-07-28 23:40:21,559 p=13196 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:40:21,711 p=13196 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-28 23:40:21,735 p=13196 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-28 23:40:22,467 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:22,486 p=13196 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-28 23:40:23,522 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:23,542 p=13196 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-28 23:40:24,580 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:24,600 p=13196 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-28 23:40:24,948 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:24,968 p=13196 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-28 23:40:25,160 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:25,178 p=13196 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-28 23:40:25,194 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:25,214 p=13196 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-28 23:40:25,230 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:25,250 p=13196 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:40:25,266 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:25,297 p=13196 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-28 23:40:25,781 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:25,800 p=13196 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-28 23:40:25,816 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:25,836 p=13196 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-28 23:40:25,852 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:25,871 p=13196 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-28 23:40:26,162 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:26,181 p=13196 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:40:26,219 p=13196 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-28 23:40:26,250 p=13196 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-28 23:40:27,262 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:27,282 p=13196 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-28 23:40:27,300 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:27,321 p=13196 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-28 23:40:27,338 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:27,358 p=13196 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-28 23:40:27,375 p=13196 u=root n=ansible | skipping: [localhost]
+2021-07-28 23:40:27,396 p=13196 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-28 23:40:27,925 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:27,946 p=13196 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-28 23:40:28,652 p=13196 u=root n=ansible | ok: [localhost]
+2021-07-28 23:40:28,655 p=13196 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-28 23:40:28,655 p=13196 u=root n=ansible | localhost                  : ok=17   changed=1    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   

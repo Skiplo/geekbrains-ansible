@@ -1,0 +1,4 @@
+Hello Ivan
+Service MyApp version 1.0.0 was saccessfuly installed
+If you have any questions you can send e-mail to our support support@myapp.com
+Best regards development team.

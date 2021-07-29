@@ -1,0 +1,8 @@
+---
+- name: homework2
+  hosts: localhost
+  roles:
+    - role: local_user
+    - role: nginx_template
+    - role: docker
+    - role: docker_rabbit
