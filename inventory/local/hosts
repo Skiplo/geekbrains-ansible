@@ -1,2 +1,3 @@
 [host_for_hw1]
 first_host ansible_host=127.0.0.1 ansible_connection=local
+second_host ansible_host=192.168.56.103 ansible_connection=local

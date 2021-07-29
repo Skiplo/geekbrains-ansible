@@ -1,0 +1,8 @@
+---
+- name: homework 3
+  hosts: host_for_hw1
+  roles:
+    - role: service_check
+    - role: get_check
+    - role: docker_wordpress
+    

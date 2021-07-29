@@ -1,0 +1,7 @@
+---
+- name: Status service {{ service_to_check }}
+  command: systemctl status "{{ service_to_check }}"
+  register: result
+- name: Status service report
+  debug:
+    var: result

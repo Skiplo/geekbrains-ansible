@@ -1,6 +1,6 @@
 ---
 - name: homework2
-  hosts: localhost
+  hosts: host_for_hw1
   roles:
     - role: local_user
     - role: nginx_template

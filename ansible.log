@@ -700,3 +700,983 @@ the implicit localhost does not match 'all'
 2021-07-28 23:40:28,652 p=13196 u=root n=ansible | ok: [localhost]
 2021-07-28 23:40:28,655 p=13196 u=root n=ansible | PLAY RECAP *********************************************************************
 2021-07-28 23:40:28,655 p=13196 u=root n=ansible | localhost                  : ok=17   changed=1    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   
+2021-07-29 00:16:35,004 p=14110 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:16:35,265 p=14110 u=root n=ansible | ERROR! Attempting to decrypt but no vault secrets found
+2021-07-29 00:17:13,679 p=14143 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:17:14,246 p=14143 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-29 00:17:14,271 p=14143 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:17:15,443 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:15,492 p=14143 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-29 00:17:15,913 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:15,941 p=14143 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-29 00:17:16,474 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:16,495 p=14143 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-29 00:17:17,289 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:17,310 p=14143 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-29 00:17:18,167 p=14143 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:18,187 p=14143 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:18,361 p=14143 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-29 00:17:18,388 p=14143 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-29 00:17:19,217 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:19,237 p=14143 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-29 00:17:20,312 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:20,333 p=14143 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-29 00:17:21,186 p=14143 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:21,207 p=14143 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-29 00:17:21,574 p=14143 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:21,595 p=14143 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-29 00:17:21,810 p=14143 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:21,831 p=14143 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-29 00:17:21,850 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:21,873 p=14143 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-29 00:17:21,892 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:21,913 p=14143 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:21,932 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:21,954 p=14143 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-29 00:17:22,488 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:22,509 p=14143 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-29 00:17:22,528 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:22,550 p=14143 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-29 00:17:22,570 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:22,592 p=14143 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-29 00:17:22,912 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:22,942 p=14143 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:22,988 p=14143 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-29 00:17:23,021 p=14143 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-29 00:17:24,216 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:24,238 p=14143 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-29 00:17:24,258 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:24,279 p=14143 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-29 00:17:24,301 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:24,322 p=14143 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:24,341 p=14143 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:24,365 p=14143 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-29 00:17:25,006 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:25,029 p=14143 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-29 00:17:25,804 p=14143 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:25,806 p=14143 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:17:25,806 p=14143 u=root n=ansible | localhost                  : ok=17   changed=4    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   
+2021-07-29 00:17:43,119 p=14622 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:17:43,691 p=14622 u=root n=ansible | PLAY [homework2] ***************************************************************
+2021-07-29 00:17:43,713 p=14622 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:17:44,731 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:44,779 p=14622 u=root n=ansible | TASK [local_user : Add local group admins] *************************************
+2021-07-29 00:17:45,223 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:45,246 p=14622 u=root n=ansible | TASK [local_user : Add local user local_admin] *********************************
+2021-07-29 00:17:45,763 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:45,788 p=14622 u=root n=ansible | TASK [nginx_template : Set port for nginx] *************************************
+2021-07-29 00:17:46,616 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:46,645 p=14622 u=root n=ansible | TASK [nginx_template : Restart nginx] ******************************************
+2021-07-29 00:17:47,424 p=14622 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:47,446 p=14622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:47,618 p=14622 u=root n=ansible | included: /home/project/roles/docker/tasks/setup-RedHat.yml for localhost
+2021-07-29 00:17:47,645 p=14622 u=root n=ansible | TASK [docker : Ensure old versions of Docker are not installed.] ***************
+2021-07-29 00:17:48,468 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:48,489 p=14622 u=root n=ansible | TASK [docker : Add Docker GPG key.] ********************************************
+2021-07-29 00:17:49,502 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:49,523 p=14622 u=root n=ansible | TASK [docker : Add Docker repository.] *****************************************
+2021-07-29 00:17:50,382 p=14622 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:50,405 p=14622 u=root n=ansible | TASK [docker : Configure Docker Nightly repo.] *********************************
+2021-07-29 00:17:50,781 p=14622 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:50,802 p=14622 u=root n=ansible | TASK [docker : Configure Docker Test repo.] ************************************
+2021-07-29 00:17:51,012 p=14622 u=root n=ansible | changed: [localhost]
+2021-07-29 00:17:51,033 p=14622 u=root n=ansible | TASK [docker : Ensure container-selinux is installed.] *************************
+2021-07-29 00:17:51,051 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:51,073 p=14622 u=root n=ansible | TASK [docker : Ensure containerd.io is installed.] *****************************
+2021-07-29 00:17:51,092 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:51,113 p=14622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:51,132 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:51,154 p=14622 u=root n=ansible | TASK [docker : Install Docker.] ************************************************
+2021-07-29 00:17:51,791 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:51,822 p=14622 u=root n=ansible | TASK [Ensure /etc/docker/ directory exists.] ***********************************
+2021-07-29 00:17:51,845 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:51,867 p=14622 u=root n=ansible | TASK [docker : Configure Docker daemon options.] *******************************
+2021-07-29 00:17:51,887 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:51,909 p=14622 u=root n=ansible | TASK [docker : Ensure Docker is started and enabled at boot.] ******************
+2021-07-29 00:17:52,232 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:52,253 p=14622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:52,297 p=14622 u=root n=ansible | included: /home/project/roles/docker/tasks/docker-compose.yml for localhost
+2021-07-29 00:17:52,329 p=14622 u=root n=ansible | TASK [Check current docker-compose version.] ***********************************
+2021-07-29 00:17:53,473 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:53,494 p=14622 u=root n=ansible | TASK [Delete existing docker-compose version if it's different.] ***************
+2021-07-29 00:17:53,515 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:53,536 p=14622 u=root n=ansible | TASK [docker : Install Docker Compose (if configured).] ************************
+2021-07-29 00:17:53,558 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:53,580 p=14622 u=root n=ansible | TASK [docker : include_tasks] **************************************************
+2021-07-29 00:17:53,599 p=14622 u=root n=ansible | skipping: [localhost]
+2021-07-29 00:17:53,623 p=14622 u=root n=ansible | TASK [docker_rabbit : Pull image rabbitmq] *************************************
+2021-07-29 00:17:54,280 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:54,304 p=14622 u=root n=ansible | TASK [docker_rabbit : Deploy my_rabbitmq in docker] ****************************
+2021-07-29 00:17:55,099 p=14622 u=root n=ansible | ok: [localhost]
+2021-07-29 00:17:55,101 p=14622 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:17:55,101 p=14622 u=root n=ansible | localhost                  : ok=17   changed=4    unreachable=0    failed=0    skipped=8    rescued=0    ignored=0   
+2021-07-29 00:18:45,628 p=15125 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:18:45,994 p=15125 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: localhosts
+
+2021-07-29 00:18:45,995 p=15125 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 00:18:45,995 p=15125 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:18:45,996 p=15125 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:20:14,334 p=15140 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:20:14,701 p=15140 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:20:14,702 p=15140 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 00:20:14,702 p=15140 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:20:14,702 p=15140 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:20:43,884 p=15148 u=root n=ansible | @all:
+  |--@host_for_hw1:
+  |  |--first_host
+  |--@ungrouped:
+2021-07-29 00:21:04,531 p=15153 u=root n=ansible | @all:
+  |--@host_for_hw1:
+  |  |--first_host
+  |  |  |--{ansible_connection = local}
+  |  |  |--{ansible_host = 127.0.0.1}
+  |--@ungrouped:
+2021-07-29 00:23:01,263 p=15206 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:23:01,821 p=15206 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:23:01,840 p=15206 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:23:02,883 p=15206 u=root n=ansible | ok: [localhost]
+2021-07-29 00:23:02,906 p=15206 u=root n=ansible | TASK [put_file : Create Dir] ***************************************************
+2021-07-29 00:23:03,356 p=15206 u=root n=ansible | changed: [localhost]
+2021-07-29 00:23:03,376 p=15206 u=root n=ansible | TASK [put_file : Download file] ************************************************
+2021-07-29 00:23:04,834 p=15206 u=root n=ansible | changed: [localhost]
+2021-07-29 00:23:04,983 p=15206 u=root n=ansible | TASK [install_packages : Instal packages] **************************************
+2021-07-29 00:23:14,584 p=15206 u=root n=ansible | ok: [localhost]
+2021-07-29 00:23:14,604 p=15206 u=root n=ansible | TASK [Instal nginx] ************************************************************
+2021-07-29 00:23:20,887 p=15206 u=root n=ansible | ok: [localhost]
+2021-07-29 00:23:20,908 p=15206 u=root n=ansible | TASK [Start nginx] *************************************************************
+2021-07-29 00:23:21,698 p=15206 u=root n=ansible | ok: [localhost]
+2021-07-29 00:23:21,737 p=15206 u=root n=ansible | TASK [nginx : Check http 200] **************************************************
+2021-07-29 00:23:22,301 p=15206 u=root n=ansible | ok: [localhost]
+2021-07-29 00:23:22,304 p=15206 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:23:22,304 p=15206 u=root n=ansible | localhost                  : ok=7    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 00:31:03,966 p=15742 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:31:04,334 p=15742 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 00:31:04,350 p=15742 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:31:05,524 p=15742 u=root n=ansible | ok: [localhost]
+2021-07-29 00:31:05,572 p=15742 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 00:31:06,064 p=15742 u=root n=ansible | changed: [localhost]
+2021-07-29 00:31:06,189 p=15742 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 00:31:06,213 p=15742 u=root n=ansible | ok: [localhost] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.009105", 
+        "end": "2021-07-29 00:31:06.038129", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 00:31:06.029024", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 13min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 13min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 00:31:06,215 p=15742 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:31:06,215 p=15742 u=root n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 00:33:27,776 p=15840 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:33:28,333 p=15840 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:33:28,351 p=15840 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:33:29,405 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:29,430 p=15840 u=root n=ansible | TASK [put_file : Create Dir] ***************************************************
+2021-07-29 00:33:29,899 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:29,920 p=15840 u=root n=ansible | TASK [put_file : Download file] ************************************************
+2021-07-29 00:33:31,372 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:31,393 p=15840 u=root n=ansible | TASK [install_packages : Instal packages] **************************************
+2021-07-29 00:33:38,818 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:38,838 p=15840 u=root n=ansible | TASK [Instal nginx] ************************************************************
+2021-07-29 00:33:45,114 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:45,136 p=15840 u=root n=ansible | TASK [Start nginx] *************************************************************
+2021-07-29 00:33:45,919 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:45,940 p=15840 u=root n=ansible | TASK [nginx : Check http 200] **************************************************
+2021-07-29 00:33:46,502 p=15840 u=root n=ansible | ok: [localhost]
+2021-07-29 00:33:46,505 p=15840 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:33:46,505 p=15840 u=root n=ansible | localhost                  : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 00:34:11,409 p=16287 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:34:11,971 p=16287 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:34:11,972 p=16287 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:34:11,973 p=16287 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:34:11,973 p=16287 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:34:18,272 p=16295 u=root n=ansible | ansible-playbook 2.9.23
+  config file = /home/project/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, Nov 16 2020, 22:23:17) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+2021-07-29 00:34:18,272 p=16295 u=root n=ansible | Using /home/project/ansible.cfg as config file
+2021-07-29 00:34:18,286 p=16295 u=root n=ansible | host_list declined parsing /etc/ansible/hosts as it did not pass its verify_file() method
+2021-07-29 00:34:18,286 p=16295 u=root n=ansible | script declined parsing /etc/ansible/hosts as it did not pass its verify_file() method
+2021-07-29 00:34:18,287 p=16295 u=root n=ansible | auto declined parsing /etc/ansible/hosts as it did not pass its verify_file() method
+2021-07-29 00:34:18,292 p=16295 u=root n=ansible | Parsed /etc/ansible/hosts inventory source with ini plugin
+2021-07-29 00:34:18,293 p=16295 u=root n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2021-07-29 00:34:18,849 p=16295 u=root n=ansible | Skipping callback 'actionable', as we already have a stdout callback.
+2021-07-29 00:34:18,849 p=16295 u=root n=ansible | Skipping callback 'counter_enabled', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'debug', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'full_skip', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'json', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'minimal', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'null', as we already have a stdout callback.
+2021-07-29 00:34:18,850 p=16295 u=root n=ansible | Skipping callback 'oneline', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | Skipping callback 'selective', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | Skipping callback 'skippy', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | Skipping callback 'stderr', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | Skipping callback 'unixy', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | Skipping callback 'yaml', as we already have a stdout callback.
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | PLAYBOOK: homework1.yml ********************************************************
+2021-07-29 00:34:18,851 p=16295 u=root n=ansible | 1 plays in homework1.yml
+2021-07-29 00:34:18,856 p=16295 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:34:18,857 p=16295 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:34:18,857 p=16295 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:34:18,858 p=16295 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:38:52,538 p=16350 u=root n=ansible | ansible-playbook 2.9.23
+  config file = /home/project/ansible.cfg
+  configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, Nov 16 2020, 22:23:17) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+2021-07-29 00:38:52,538 p=16350 u=root n=ansible | Using /home/project/ansible.cfg as config file
+2021-07-29 00:38:52,552 p=16350 u=root n=ansible | host_list declined parsing /home/project/inventory/local/hosts as it did not pass its verify_file() method
+2021-07-29 00:38:52,552 p=16350 u=root n=ansible | script declined parsing /home/project/inventory/local/hosts as it did not pass its verify_file() method
+2021-07-29 00:38:52,553 p=16350 u=root n=ansible | auto declined parsing /home/project/inventory/local/hosts as it did not pass its verify_file() method
+2021-07-29 00:38:52,559 p=16350 u=root n=ansible | Parsed /home/project/inventory/local/hosts inventory source with ini plugin
+2021-07-29 00:38:53,103 p=16350 u=root n=ansible | Skipping callback 'actionable', as we already have a stdout callback.
+2021-07-29 00:38:53,103 p=16350 u=root n=ansible | Skipping callback 'counter_enabled', as we already have a stdout callback.
+2021-07-29 00:38:53,103 p=16350 u=root n=ansible | Skipping callback 'debug', as we already have a stdout callback.
+2021-07-29 00:38:53,103 p=16350 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'dense', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'full_skip', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'json', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'minimal', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'null', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'oneline', as we already have a stdout callback.
+2021-07-29 00:38:53,104 p=16350 u=root n=ansible | Skipping callback 'selective', as we already have a stdout callback.
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | Skipping callback 'skippy', as we already have a stdout callback.
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | Skipping callback 'stderr', as we already have a stdout callback.
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | Skipping callback 'unixy', as we already have a stdout callback.
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | Skipping callback 'yaml', as we already have a stdout callback.
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | PLAYBOOK: homework1.yml ********************************************************
+2021-07-29 00:38:53,105 p=16350 u=root n=ansible | 1 plays in homework1.yml
+2021-07-29 00:38:53,110 p=16350 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:38:53,111 p=16350 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:38:53,111 p=16350 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:38:53,111 p=16350 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:41:55,484 p=16402 u=root n=ansible | ERROR! No action selected, at least one of --host, --graph or --list needs to be specified.
+2021-07-29 00:42:37,200 p=16407 u=root n=ansible | {
+    "_meta": {
+        "hostvars": {
+            "first_host": {
+                "ansible_connection": "local", 
+                "ansible_host": "127.0.0.1"
+            }
+        }
+    }, 
+    "all": {
+        "children": [
+            "host_for_hw1", 
+            "ungrouped"
+        ]
+    }, 
+    "host_for_hw1": {
+        "hosts": [
+            "first_host"
+        ]
+    }
+}
+2021-07-29 00:44:49,521 p=16457 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:44:49,522 p=16457 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:44:49,522 p=16457 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:44:49,523 p=16457 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:44:57,057 p=16465 u=root n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: local
+
+2021-07-29 00:44:57,059 p=16465 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:44:57,059 p=16465 u=root n=ansible | skipping: no hosts matched
+2021-07-29 00:44:57,059 p=16465 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:45:51,445 p=16474 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 00:45:51,464 p=16474 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:45:52,681 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:45:52,704 p=16474 u=root n=ansible | TASK [put_file : Create Dir] ***************************************************
+2021-07-29 00:45:53,151 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:45:53,172 p=16474 u=root n=ansible | TASK [put_file : Download file] ************************************************
+2021-07-29 00:45:55,488 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:45:55,509 p=16474 u=root n=ansible | TASK [install_packages : Instal packages] **************************************
+2021-07-29 00:46:01,417 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:46:01,438 p=16474 u=root n=ansible | TASK [Instal nginx] ************************************************************
+2021-07-29 00:46:07,728 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:46:07,749 p=16474 u=root n=ansible | TASK [Start nginx] *************************************************************
+2021-07-29 00:46:08,560 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:46:08,581 p=16474 u=root n=ansible | TASK [nginx : Check http 200] **************************************************
+2021-07-29 00:46:09,116 p=16474 u=root n=ansible | ok: [first_host]
+2021-07-29 00:46:09,118 p=16474 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:46:09,119 p=16474 u=root n=ansible | first_host                 : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 00:50:32,379 p=16970 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 00:50:32,395 p=16970 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 00:50:33,610 p=16970 u=root n=ansible | ok: [first_host]
+2021-07-29 00:50:33,659 p=16970 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 00:50:34,160 p=16970 u=root n=ansible | changed: [first_host]
+2021-07-29 00:50:34,181 p=16970 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 00:50:34,206 p=16970 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008853", 
+        "end": "2021-07-29 00:50:34.133185", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 00:50:34.124332", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 32min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 32min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 00:50:34,208 p=16970 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 00:50:34,209 p=16970 u=root n=ansible | first_host                 : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:05:38,945 p=17228 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: No JSON object could be decoded
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/project/roles/get_check/tasks/main.yml': line 13, column 30, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  uri:
+    url: "{{ url_to_check }}"/favicon
+                             ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2021-07-29 01:06:25,814 p=17239 u=root n=ansible | ERROR! conflicting action statements: deligate_to, uri
+
+The error appears to be in '/home/project/roles/get_check/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Check main page returns a status 200
+  ^ here
+
+2021-07-29 01:07:33,112 p=17293 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:07:33,136 p=17293 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:07:34,323 p=17293 u=root n=ansible | ok: [first_host]
+2021-07-29 01:07:34,372 p=17293 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:07:34,864 p=17293 u=root n=ansible | changed: [first_host]
+2021-07-29 01:07:34,885 p=17293 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:07:34,910 p=17293 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.011046", 
+        "end": "2021-07-29 01:07:34.838601", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:07:34.827555", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 49min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 49min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:07:34,931 p=17293 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:07:35,646 p=17293 u=root n=ansible | ok: [first_host]
+2021-07-29 01:07:35,667 p=17293 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:07:35,691 p=17293 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:07:35 GMT", 
+        "elapsed": 0, 
+        "etag": "\"53762af0-12e1\"", 
+        "failed": false, 
+        "last_modified": "Fri, 16 May 2014 15:12:48 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": false, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://127.0.0.1"
+    }
+}
+2021-07-29 01:07:35,712 p=17293 u=root n=ansible | TASK [get_check : Check /favicon  page returns a status 200] *******************
+2021-07-29 01:07:36,302 p=17293 u=root n=ansible | fatal: [first_host]: FAILED! => {"changed": false, "connection": "close", "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n    <head>\n        <title>The page is not found</title>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n        <style type=\"text/css\">\n            /*<![CDATA[*/\n            body {\n                background-color: #fff;\n                color: #000;\n                font-size: 0.9em;\n                font-family: sans-serif,helvetica;\n                margin: 0;\n                padding: 0;\n            }\n            :link {\n                color: #c00;\n            }\n            :visited {\n                color: #c00;\n            }\n            a:hover {\n                color: #f50;\n            }\n            h1 {\n                text-align: center;\n                margin: 0;\n                padding: 0.6em 2em 0.4em;\n                background-color: #294172;\n                color: #fff;\n                font-weight: normal;\n                font-size: 1.75em;\n                border-bottom: 2px solid #000;\n            }\n            h1 strong {\n                font-weight: bold;\n                font-size: 1.5em;\n            }\n            h2 {\n                text-align: center;\n                background-color: #3C6EB4;\n                font-size: 1.1em;\n                font-weight: bold;\n                color: #fff;\n                margin: 0;\n                padding: 0.5em;\n                border-bottom: 2px solid #294172;\n            }\n            h3 {\n                text-align: center;\n                background-color: #ff0000;\n                padding: 0.5em;\n                color: #fff;\n            }\n            hr {\n                display: none;\n            }\n            .content {\n                padding: 1em 5em;\n            }\n            .alert {\n                border: 2px solid #000;\n            }\n\n            img {\n                border: 2px solid #fff;\n                padding: 2px;\n                margin: 2px;\n            }\n            a:hover img {\n                border: 2px solid #294172;\n            }\n            .logos {\n                margin: 1em;\n                text-align: center;\n            }\n            /*]]>*/\n        </style>\n    </head>\n\n    <body>\n        <h1><strong>nginx error!</strong></h1>\n\n        <div class=\"content\">\n\n            <h3>The page you are looking for is not found.</h3>\n\n            <div class=\"alert\">\n                <h2>Website Administrator</h2>\n                <div class=\"content\">\n                    <p>Something has triggered missing webpage on your\n                    website. This is the default 404 error page for\n                    <strong>nginx</strong> that is distributed with\n                    Fedora.  It is located\n                    <tt>/usr/share/nginx/html/404.html</tt></p>\n\n                    <p>You should customize this error page for your own\n                    site or edit the <tt>error_page</tt> directive in\n                    the <strong>nginx</strong> configuration file\n                    <tt>/etc/nginx/nginx.conf</tt>.</p>\n\n                </div>\n            </div>\n\n            <div class=\"logos\">\n                <a href=\"http://nginx.net/\"><img\n                    src=\"/nginx-logo.png\"\n                    alt=\"[ Powered by nginx ]\"\n                    width=\"121\" height=\"32\" /></a>\n\n                <a href=\"http://fedoraproject.org/\"><img \n                    src=\"/poweredby.png\"\n                    alt=\"[ Powered by Fedora ]\" \n                    width=\"88\" height=\"31\" /></a>\n            </div>\n        </div>\n    </body>\n</html>\n", "content_length": "3650", "content_type": "text/html", "date": "Thu, 29 Jul 2021 05:07:36 GMT", "elapsed": 0, "etag": "\"60b6cf1d-e42\"", "msg": "Status code was 404 and not [200]: HTTP Error 404: Not Found", "redirected": false, "server": "nginx/1.20.1", "status": 404, "url": "http://127.0.0.1/favicon"}
+2021-07-29 01:07:36,303 p=17293 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:07:36,303 p=17293 u=root n=ansible | first_host                 : ok=5    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:11:43,919 p=17473 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:11:43,937 p=17473 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:11:45,128 p=17473 u=root n=ansible | ok: [first_host]
+2021-07-29 01:11:45,178 p=17473 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:11:45,729 p=17473 u=root n=ansible | changed: [first_host]
+2021-07-29 01:11:45,750 p=17473 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:11:45,775 p=17473 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008193", 
+        "end": "2021-07-29 01:11:45.702686", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:11:45.694493", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 53min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 53min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:11:45,799 p=17473 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:11:46,096 p=17473 u=root n=ansible | fatal: [first_host]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.56.103' (ECDSA) to the list of known hosts.\r\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", "unreachable": true}
+2021-07-29 01:11:46,098 p=17473 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:11:46,098 p=17473 u=root n=ansible | first_host                 : ok=3    changed=1    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:13:32,631 p=17606 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:13:32,649 p=17606 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:13:33,817 p=17606 u=root n=ansible | ok: [first_host]
+2021-07-29 01:13:33,866 p=17606 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:13:34,356 p=17606 u=root n=ansible | changed: [first_host]
+2021-07-29 01:13:34,377 p=17606 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:13:34,402 p=17606 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008866", 
+        "end": "2021-07-29 01:13:34.330612", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:13:34.321746", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 55min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 55min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:13:34,426 p=17606 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:13:34,458 p=17606 u=root n=ansible | fatal: [first_host]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname 192.168.56.103 ansible_connection=local: Name or service not known", "unreachable": true}
+2021-07-29 01:13:34,460 p=17606 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:13:34,460 p=17606 u=root n=ansible | first_host                 : ok=3    changed=1    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:19:20,735 p=17783 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:19:20,753 p=17783 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:19:21,931 p=17783 u=root n=ansible | ok: [first_host]
+2021-07-29 01:19:21,981 p=17783 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:19:22,556 p=17783 u=root n=ansible | changed: [first_host]
+2021-07-29 01:19:22,579 p=17783 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:19:22,603 p=17783 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008866", 
+        "end": "2021-07-29 01:19:22.530342", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:19:22.521476", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 1min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 1min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:19:22,627 p=17783 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:19:23,355 p=17783 u=root n=ansible | ok: [first_host]
+2021-07-29 01:19:23,376 p=17783 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:19:23,400 p=17783 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:19:23 GMT", 
+        "elapsed": 0, 
+        "etag": "\"53762af0-12e1\"", 
+        "failed": false, 
+        "last_modified": "Fri, 16 May 2014 15:12:48 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": false, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103"
+    }
+}
+2021-07-29 01:19:23,427 p=17783 u=root n=ansible | TASK [get_check : Check /favicon  page returns a status 200] *******************
+2021-07-29 01:19:23,916 p=17783 u=root n=ansible | fatal: [first_host]: FAILED! => {"changed": false, "connection": "close", "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n    <head>\n        <title>The page is not found</title>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n        <style type=\"text/css\">\n            /*<![CDATA[*/\n            body {\n                background-color: #fff;\n                color: #000;\n                font-size: 0.9em;\n                font-family: sans-serif,helvetica;\n                margin: 0;\n                padding: 0;\n            }\n            :link {\n                color: #c00;\n            }\n            :visited {\n                color: #c00;\n            }\n            a:hover {\n                color: #f50;\n            }\n            h1 {\n                text-align: center;\n                margin: 0;\n                padding: 0.6em 2em 0.4em;\n                background-color: #294172;\n                color: #fff;\n                font-weight: normal;\n                font-size: 1.75em;\n                border-bottom: 2px solid #000;\n            }\n            h1 strong {\n                font-weight: bold;\n                font-size: 1.5em;\n            }\n            h2 {\n                text-align: center;\n                background-color: #3C6EB4;\n                font-size: 1.1em;\n                font-weight: bold;\n                color: #fff;\n                margin: 0;\n                padding: 0.5em;\n                border-bottom: 2px solid #294172;\n            }\n            h3 {\n                text-align: center;\n                background-color: #ff0000;\n                padding: 0.5em;\n                color: #fff;\n            }\n            hr {\n                display: none;\n            }\n            .content {\n                padding: 1em 5em;\n            }\n            .alert {\n                border: 2px solid #000;\n            }\n\n            img {\n                border: 2px solid #fff;\n                padding: 2px;\n                margin: 2px;\n            }\n            a:hover img {\n                border: 2px solid #294172;\n            }\n            .logos {\n                margin: 1em;\n                text-align: center;\n            }\n            /*]]>*/\n        </style>\n    </head>\n\n    <body>\n        <h1><strong>nginx error!</strong></h1>\n\n        <div class=\"content\">\n\n            <h3>The page you are looking for is not found.</h3>\n\n            <div class=\"alert\">\n                <h2>Website Administrator</h2>\n                <div class=\"content\">\n                    <p>Something has triggered missing webpage on your\n                    website. This is the default 404 error page for\n                    <strong>nginx</strong> that is distributed with\n                    Fedora.  It is located\n                    <tt>/usr/share/nginx/html/404.html</tt></p>\n\n                    <p>You should customize this error page for your own\n                    site or edit the <tt>error_page</tt> directive in\n                    the <strong>nginx</strong> configuration file\n                    <tt>/etc/nginx/nginx.conf</tt>.</p>\n\n                </div>\n            </div>\n\n            <div class=\"logos\">\n                <a href=\"http://nginx.net/\"><img\n                    src=\"/nginx-logo.png\"\n                    alt=\"[ Powered by nginx ]\"\n                    width=\"121\" height=\"32\" /></a>\n\n                <a href=\"http://fedoraproject.org/\"><img \n                    src=\"/poweredby.png\"\n                    alt=\"[ Powered by Fedora ]\" \n                    width=\"88\" height=\"31\" /></a>\n            </div>\n        </div>\n    </body>\n</html>\n", "content_length": "3650", "content_type": "text/html", "date": "Thu, 29 Jul 2021 05:19:23 GMT", "elapsed": 0, "etag": "\"60b6cf1d-e42\"", "msg": "Status code was 404 and not [200]: HTTP Error 404: Not Found", "redirected": false, "server": "nginx/1.20.1", "status": 404, "url": "http://192.168.56.103/favicon"}
+2021-07-29 01:19:23,917 p=17783 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:19:23,918 p=17783 u=root n=ansible | first_host                 : ok=5    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:23:27,099 p=17970 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:23:27,122 p=17970 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:23:28,201 p=17970 u=root n=ansible | ok: [first_host]
+2021-07-29 01:23:28,250 p=17970 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:23:28,648 p=17970 u=root n=ansible | changed: [first_host]
+2021-07-29 01:23:28,670 p=17970 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:23:28,694 p=17970 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008459", 
+        "end": "2021-07-29 01:23:28.622908", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:23:28.614449", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 5min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 5min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:23:28,719 p=17970 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:23:29,293 p=17970 u=root n=ansible | ok: [first_host]
+2021-07-29 01:23:29,316 p=17970 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:23:29,341 p=17970 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:23:29 GMT", 
+        "elapsed": 0, 
+        "etag": "\"53762af0-12e1\"", 
+        "failed": false, 
+        "last_modified": "Fri, 16 May 2014 15:12:48 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": false, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103"
+    }
+}
+2021-07-29 01:23:29,365 p=17970 u=root n=ansible | TASK [get_check : Check /favicon  page returns a status 200] *******************
+2021-07-29 01:23:29,716 p=17970 u=root n=ansible | fatal: [first_host]: FAILED! => {"changed": false, "connection": "close", "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n    <head>\n        <title>The page is not found</title>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n        <style type=\"text/css\">\n            /*<![CDATA[*/\n            body {\n                background-color: #fff;\n                color: #000;\n                font-size: 0.9em;\n                font-family: sans-serif,helvetica;\n                margin: 0;\n                padding: 0;\n            }\n            :link {\n                color: #c00;\n            }\n            :visited {\n                color: #c00;\n            }\n            a:hover {\n                color: #f50;\n            }\n            h1 {\n                text-align: center;\n                margin: 0;\n                padding: 0.6em 2em 0.4em;\n                background-color: #294172;\n                color: #fff;\n                font-weight: normal;\n                font-size: 1.75em;\n                border-bottom: 2px solid #000;\n            }\n            h1 strong {\n                font-weight: bold;\n                font-size: 1.5em;\n            }\n            h2 {\n                text-align: center;\n                background-color: #3C6EB4;\n                font-size: 1.1em;\n                font-weight: bold;\n                color: #fff;\n                margin: 0;\n                padding: 0.5em;\n                border-bottom: 2px solid #294172;\n            }\n            h3 {\n                text-align: center;\n                background-color: #ff0000;\n                padding: 0.5em;\n                color: #fff;\n            }\n            hr {\n                display: none;\n            }\n            .content {\n                padding: 1em 5em;\n            }\n            .alert {\n                border: 2px solid #000;\n            }\n\n            img {\n                border: 2px solid #fff;\n                padding: 2px;\n                margin: 2px;\n            }\n            a:hover img {\n                border: 2px solid #294172;\n            }\n            .logos {\n                margin: 1em;\n                text-align: center;\n            }\n            /*]]>*/\n        </style>\n    </head>\n\n    <body>\n        <h1><strong>nginx error!</strong></h1>\n\n        <div class=\"content\">\n\n            <h3>The page you are looking for is not found.</h3>\n\n            <div class=\"alert\">\n                <h2>Website Administrator</h2>\n                <div class=\"content\">\n                    <p>Something has triggered missing webpage on your\n                    website. This is the default 404 error page for\n                    <strong>nginx</strong> that is distributed with\n                    Fedora.  It is located\n                    <tt>/usr/share/nginx/html/404.html</tt></p>\n\n                    <p>You should customize this error page for your own\n                    site or edit the <tt>error_page</tt> directive in\n                    the <strong>nginx</strong> configuration file\n                    <tt>/etc/nginx/nginx.conf</tt>.</p>\n\n                </div>\n            </div>\n\n            <div class=\"logos\">\n                <a href=\"http://nginx.net/\"><img\n                    src=\"/nginx-logo.png\"\n                    alt=\"[ Powered by nginx ]\"\n                    width=\"121\" height=\"32\" /></a>\n\n                <a href=\"http://fedoraproject.org/\"><img \n                    src=\"/poweredby.png\"\n                    alt=\"[ Powered by Fedora ]\" \n                    width=\"88\" height=\"31\" /></a>\n            </div>\n        </div>\n    </body>\n</html>\n", "content_length": "3650", "content_type": "text/html", "date": "Thu, 29 Jul 2021 05:23:29 GMT", "elapsed": 0, "etag": "\"60b6cf1d-e42\"", "msg": "Status code was 404 and not [200]: HTTP Error 404: Not Found", "redirected": false, "server": "nginx/1.20.1", "status": 404, "url": "http://192.168.56.103/favicon"}
+2021-07-29 01:23:29,717 p=17970 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:23:29,717 p=17970 u=root n=ansible | first_host                 : ok=5    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:29:20,310 p=18202 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:29:20,328 p=18202 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:29:21,394 p=18202 u=root n=ansible | ok: [first_host]
+2021-07-29 01:29:21,442 p=18202 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:29:21,842 p=18202 u=root n=ansible | changed: [first_host]
+2021-07-29 01:29:21,863 p=18202 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:29:21,887 p=18202 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.008691", 
+        "end": "2021-07-29 01:29:21.815917", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:29:21.807226", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 11min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 11min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:29:21,913 p=18202 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:29:22,490 p=18202 u=root n=ansible | ok: [first_host]
+2021-07-29 01:29:22,511 p=18202 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:29:22,535 p=18202 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:29:22 GMT", 
+        "elapsed": 0, 
+        "etag": "\"53762af0-12e1\"", 
+        "failed": false, 
+        "last_modified": "Fri, 16 May 2014 15:12:48 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": false, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103"
+    }
+}
+2021-07-29 01:29:22,559 p=18202 u=root n=ansible | TASK [get_check : Check /favicon  page returns a status 200] *******************
+2021-07-29 01:29:22,917 p=18202 u=root n=ansible | ok: [first_host]
+2021-07-29 01:29:22,938 p=18202 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:29:22,963 p=18202 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:29:22 GMT", 
+        "elapsed": 0, 
+        "etag": "\"61023ca4-12e1\"", 
+        "failed": false, 
+        "last_modified": "Thu, 29 Jul 2021 05:29:08 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": true, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103/favicon/"
+    }
+}
+2021-07-29 01:29:22,986 p=18202 u=root n=ansible | TASK [docker_wordpress : Pull image wordpress] *********************************
+2021-07-29 01:30:04,064 p=18202 u=root n=ansible | changed: [first_host]
+2021-07-29 01:30:04,087 p=18202 u=root n=ansible | TASK [docker_wordpress : Deploy my_wordpress in docker] ************************
+2021-07-29 01:30:06,414 p=18202 u=root n=ansible | changed: [first_host]
+2021-07-29 01:30:06,416 p=18202 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:30:06,416 p=18202 u=root n=ansible | first_host                 : ok=9    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 01:35:12,173 p=18615 u=root n=ansible | PLAY [homework 3] **************************************************************
+2021-07-29 01:35:12,192 p=18615 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 01:35:13,657 p=18615 u=root n=ansible | ok: [first_host]
+2021-07-29 01:35:13,707 p=18615 u=root n=ansible | TASK [service_check : Status service nginx] ************************************
+2021-07-29 01:35:14,105 p=18615 u=root n=ansible | changed: [first_host]
+2021-07-29 01:35:14,127 p=18615 u=root n=ansible | TASK [service_check : Status service report] ***********************************
+2021-07-29 01:35:14,151 p=18615 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "changed": true, 
+        "cmd": [
+            "systemctl", 
+            "status", 
+            "nginx"
+        ], 
+        "delta": "0:00:00.009817", 
+        "end": "2021-07-29 01:35:14.079039", 
+        "failed": false, 
+        "rc": 0, 
+        "start": "2021-07-29 01:35:14.069222", 
+        "stderr": "", 
+        "stderr_lines": [], 
+        "stdout": "● nginx.service - The nginx HTTP and reverse proxy server\n   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)\n   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 17min ago\n  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)\n  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)\n  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)\n Main PID: 14798 (nginx)\n    Tasks: 2\n   Memory: 1.5M\n   CGroup: /system.slice/nginx.service\n           ├─14798 nginx: master process /usr/sbin/ngin\n           └─14799 nginx: worker proces\n\nJul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.\nJul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nJul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful\nJul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server.", 
+        "stdout_lines": [
+            "● nginx.service - The nginx HTTP and reverse proxy server", 
+            "   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)", 
+            "   Active: active (running) since Thu 2021-07-29 00:17:47 EDT; 1h 17min ago", 
+            "  Process: 14796 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)", 
+            "  Process: 14794 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)", 
+            "  Process: 14793 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)", 
+            " Main PID: 14798 (nginx)", 
+            "    Tasks: 2", 
+            "   Memory: 1.5M", 
+            "   CGroup: /system.slice/nginx.service", 
+            "           ├─14798 nginx: master process /usr/sbin/ngin", 
+            "           └─14799 nginx: worker proces", 
+            "", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Stopped The nginx HTTP and reverse proxy server.", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Starting The nginx HTTP and reverse proxy server...", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok", 
+            "Jul 29 00:17:47 localhost.localdomain nginx[14794]: nginx: configuration file /etc/nginx/nginx.conf test is successful", 
+            "Jul 29 00:17:47 localhost.localdomain systemd[1]: Started The nginx HTTP and reverse proxy server."
+        ]
+    }
+}
+2021-07-29 01:35:14,177 p=18615 u=root n=ansible | TASK [get_check : Check main page returns a status 200] ************************
+2021-07-29 01:35:14,761 p=18615 u=root n=ansible | ok: [first_host]
+2021-07-29 01:35:14,782 p=18615 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:35:14,809 p=18615 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:35:14 GMT", 
+        "elapsed": 0, 
+        "etag": "\"53762af0-12e1\"", 
+        "failed": false, 
+        "last_modified": "Fri, 16 May 2014 15:12:48 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": false, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103"
+    }
+}
+2021-07-29 01:35:14,833 p=18615 u=root n=ansible | TASK [get_check : Check /favicon  page returns a status 200] *******************
+2021-07-29 01:35:15,201 p=18615 u=root n=ansible | ok: [first_host]
+2021-07-29 01:35:15,223 p=18615 u=root n=ansible | TASK [get_check : Return result check] *****************************************
+2021-07-29 01:35:15,249 p=18615 u=root n=ansible | ok: [first_host] => {
+    "result": {
+        "accept_ranges": "bytes", 
+        "changed": false, 
+        "connection": "close", 
+        "content": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n  <title>Welcome to CentOS</title>\n  <style rel=\"stylesheet\" type=\"text/css\"> \n\n\thtml {\n\tbackground-image:url(img/html-background.png);\n\tbackground-color: white;\n\tfont-family: \"DejaVu Sans\", \"Liberation Sans\", sans-serif;\n\tfont-size: 0.85em;\n\tline-height: 1.25em;\n\tmargin: 0 4% 0 4%;\n\t}\n\n\tbody {\n\tborder: 10px solid #fff;\n\tmargin:0;\n\tpadding:0;\n\tbackground: #fff;\n\t}\n\n\t/* Links */\n\n\ta:link { border-bottom: 1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n\ta:active {  border-bottom:1px dotted #ccc; text-decoration: underline; color: #204d92; }\n\ta:visited { border-bottom:1px dotted #ccc; text-decoration: none; color: #204d92; }\n\ta:visited:hover { border-bottom:1px dotted #ccc; text-decoration: underline; color: green; }\n \n\t.logo a:link,\n\t.logo a:hover,\n\t.logo a:visited { border-bottom: none; }\n\n\t.mainlinks a:link { border-bottom: 1px dotted #ddd; text-decoration: none; color: #eee; }\n\t.mainlinks a:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:active { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\t.mainlinks a:visited { border-bottom:1px dotted #ddd; text-decoration: none; color: white; }\n\t.mainlinks a:visited:hover { border-bottom:1px dotted #ddd; text-decoration: underline; color: white; }\n\n\t/* User interface styles */\n\n\t#header {\n\tmargin:0;\n\tpadding: 0.5em;\n\tbackground: #204D8C url(img/header-background.png);\n\ttext-align: left;\n\t}\n\n\t.logo {\n\tpadding: 0;\n\t/* For text only logo */\n\tfont-size: 1.4em;\n\tline-height: 1em;\n\tfont-weight: bold;\n\t}\n\n\t.logo img {\n\tvertical-align: middle;\n\tpadding-right: 1em;\n\t}\n\n\t.logo a {\n\tcolor: #fff;\n\ttext-decoration: none;\n\t}\n\n\tp {\n\tline-height:1.5em;\n\t}\n\n\th1 { \n\t\tmargin-bottom: 0;\n\t\tline-height: 1.9em; }\n\th2 { \n\t\tmargin-top: 0;\n\t\tline-height: 1.7em; }\n\n\t#content {\n\tclear:both;\n\tpadding-left: 30px;\n\tpadding-right: 30px;\n\tpadding-bottom: 30px;\n\tborder-bottom: 5px solid #eee;\n\t}\n\n    .mainlinks {\n        float: right;\n        margin-top: 0.5em;\n        text-align: right;\n    }\n\n    ul.mainlinks > li {\n    border-right: 1px dotted #ddd;\n    padding-right: 10px;\n    padding-left: 10px;\n    display: inline;\n    list-style: none;\n    }\n\n    ul.mainlinks > li.last,\n    ul.mainlinks > li.first {\n    border-right: none;\n    }\n\n  </style>\n\n</head>\n\n<body>\n\n<div id=\"header\">\n\n    <ul class=\"mainlinks\">\n        <li> <a href=\"http://www.centos.org/\">Home</a> </li>\n        <li> <a href=\"http://wiki.centos.org/\">Wiki</a> </li>\n        <li> <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Mailing Lists</a></li>\n        <li> <a href=\"http://www.centos.org/download/mirrors/\">Mirror List</a></li>\n        <li> <a href=\"http://wiki.centos.org/irc\">IRC</a></li>\n        <li> <a href=\"https://www.centos.org/forums/\">Forums</a></li>\n        <li> <a href=\"http://bugs.centos.org/\">Bugs</a> </li>\n        <li class=\"last\"> <a href=\"http://wiki.centos.org/Donate\">Donate</a></li>\n    </ul>\n\n\t<div class=\"logo\">\n\t\t<a href=\"http://www.centos.org/\"><img src=\"img/centos-logo.png\" border=\"0\"></a>\n\t</div>\n\n</div>\n\n<div id=\"content\">\n\n\t<h1>Welcome to CentOS</h1>\n\n\t<h2>The Community ENTerprise Operating System</h2>\n\n\t<p><a href=\"http://www.centos.org/\">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided\nto the public by Red Hat, Inc. for Red Hat Enterprise Linux.  CentOS conforms fully with the upstream vendors\nredistribution policy and aims to be functionally compatible. (CentOS mainly changes packages to remove upstream vendor\nbranding and artwork.)</p>\n\n\t<p>CentOS is developed by a small but growing team of core\ndevelopers.&nbsp; In turn the core developers are supported by an active user community\nincluding system administrators, network administrators, enterprise users, managers, core Linux contributors and Linux enthusiasts from around the world.</p>\n\n\t<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href=\"http://www.centos.org/download/mirrors/\">mirror network</a>, developers who are contactable and responsive, Special Interest Groups (<a href=\"http://wiki.centos.org/SpecialInterestGroup/\">SIGs</a>) to add functionality to the core CentOS distribution, and multiple community support avenues including a <a href=\"http://wiki.centos.org/\">wiki</a>, <a\nhref=\"http://wiki.centos.org/irc\">IRC Chat</a>, <a href=\"http://wiki.centos.org/GettingHelp/ListInfo\">Email Lists</a>, <a href=\"https://www.centos.org/forums/\">Forums</a>, <a href=\"http://bugs.centos.org/\">Bugs Database</a>, and an <a\nhref=\"http://wiki.centos.org/FAQ/\">FAQ</a>.</p>\n\n\t</div>\n\n</div>\n\n\n</body>\n</html>\n", 
+        "content_length": "4833", 
+        "content_type": "text/html", 
+        "cookies": {}, 
+        "cookies_string": "", 
+        "date": "Thu, 29 Jul 2021 05:35:15 GMT", 
+        "elapsed": 0, 
+        "etag": "\"61023ca4-12e1\"", 
+        "failed": false, 
+        "last_modified": "Thu, 29 Jul 2021 05:29:08 GMT", 
+        "msg": "OK (4833 bytes)", 
+        "redirected": true, 
+        "server": "nginx/1.20.1", 
+        "status": 200, 
+        "url": "http://192.168.56.103/favicon/"
+    }
+}
+2021-07-29 01:35:15,274 p=18615 u=root n=ansible | TASK [docker_wordpress : Pull image wordpress] *********************************
+2021-07-29 01:35:15,907 p=18615 u=root n=ansible | ok: [first_host]
+2021-07-29 01:35:15,929 p=18615 u=root n=ansible | TASK [docker_wordpress : Deploy my_wordpress in docker] ************************
+2021-07-29 01:35:16,716 p=18615 u=root n=ansible | ok: [first_host]
+2021-07-29 01:35:16,718 p=18615 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 01:35:16,718 p=18615 u=root n=ansible | first_host                 : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 02:46:29,841 p=19578 u=root n=ansible | PLAY [homework1] ***************************************************************
+2021-07-29 02:46:29,860 p=19578 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2021-07-29 02:46:31,518 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:46:31,577 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:46:31,598 p=19578 u=root n=ansible | TASK [put_file : Create Dir] ***************************************************
+2021-07-29 02:46:32,306 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:46:32,317 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:46:32,337 p=19578 u=root n=ansible | TASK [put_file : Download file] ************************************************
+2021-07-29 02:46:34,159 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:46:34,189 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:46:34,210 p=19578 u=root n=ansible | TASK [install_packages : Instal packages] **************************************
+2021-07-29 02:46:41,822 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:46:48,866 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:46:48,887 p=19578 u=root n=ansible | TASK [Instal nginx] ************************************************************
+2021-07-29 02:46:54,993 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:47:04,609 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:47:04,630 p=19578 u=root n=ansible | TASK [Start nginx] *************************************************************
+2021-07-29 02:47:05,759 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:47:05,783 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:47:05,804 p=19578 u=root n=ansible | TASK [nginx : Check http 200] **************************************************
+2021-07-29 02:47:06,671 p=19578 u=root n=ansible | ok: [first_host]
+2021-07-29 02:47:06,676 p=19578 u=root n=ansible | ok: [second_host]
+2021-07-29 02:47:06,678 p=19578 u=root n=ansible | PLAY RECAP *********************************************************************
+2021-07-29 02:47:06,678 p=19578 u=root n=ansible | first_host                 : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-07-29 02:47:06,678 p=19578 u=root n=ansible | second_host                : ok=7    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

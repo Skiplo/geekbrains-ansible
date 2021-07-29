@@ -1,0 +1,20 @@
+---
+- name: Check main page returns a status 200
+  uri:
+    url: "{{ url_to_check }}"
+    return_content: yes
+  register: result
+  delegate_to: 127.0.0.1
+- name: Return result check
+  debug:
+    var: result
+- name: Check /favicon  page returns a status 200
+  uri:
+    url: "{{ url_to_check }}/favicon"
+    return_content: yes
+  register: result
+  delegate_to: 127.0.0.1
+- name: Return result check
+  debug:
+    var: result
+ 

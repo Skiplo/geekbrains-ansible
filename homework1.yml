@@ -1,6 +1,6 @@
 ---
 - name: homework1
-  hosts: localhost
+  hosts: host_for_hw1
   roles:
     - role: put_file
     - role: install_packages
