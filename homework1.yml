@@ -1,0 +1,7 @@
+---
+- name: homework1
+  hosts: localhost
+  roles:
+    - role: put_file
+    - role: install_packages
+    - role: nginx

@@ -1,0 +1,11 @@
+---
+- name: Add local group {{ group_to_add }}
+  group: 
+    name: "{{ group_to_add }}"
+    state: present
+- name: Add local user {{ user_to_add }}
+  user:
+    name: "{{ user_to_add }}"
+    shell: /bin/bash
+    groups: admins
+    append: yes

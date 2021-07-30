@@ -1,0 +1,11 @@
+---
+- name: Instal packages
+  yum:
+    name: 
+      - htop
+      - unzip
+      - telnet
+      - java
+      - python
+      - python-docker
+    state: latest

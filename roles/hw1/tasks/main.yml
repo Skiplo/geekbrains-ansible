@@ -1,0 +1,28 @@
+---
+- name: Create Dir
+  file:
+    path: "{{ dir_to_create.dir }}"
+    state: directory
+    mode: "{{ dir_to_create.mode }}" 
+- name: Download file
+  get_url:
+    url: "{{ file_to_download.url }}"
+    dest: "{{ dir_to_create.dir }}/git_help.pdf"
+    mode: "{{ file_to_download.mode }}"
+- name: Instal 
+  yum:
+    name: 
+      - htop
+      - unzip
+      - telnet
+      - java
+      - python
+      - nginx
+    state: latest
+- name: Start nginx
+  service:
+    name: nginx
+    state: started
+- name: Check http 200
+  uri:
+    url: http://127.0.0.1
